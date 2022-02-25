@@ -1,0 +1,45 @@
+{% extends "editor/layout.html" %} 
+
+{% block title %}
+  Editor
+{% endblock  %}
+
+
+{% block display %}
+  {% if image_url %}
+  <img src="{{ image_url }}" class="col-12 view-orgin" id="display">   
+  {% endif %}
+{% endblock  %}
+
+{% block btn_save %}
+  {% if image_url %}
+  {{ image_url }}  
+  {% else %}
+  #
+  {% endif %}
+{% endblock  %}
+
+
+{% block functionBar %}
+<div class="row-md-6 fun-block-bar"><a href="{% url 'index' %}{% if image_url %}s={{ image_url|slice:"7:" }}{% endif %}">Functions</a></div>
+{% endblock  %}
+{% block functions %}
+<ul class="col-md-12">
+  {% if image_url %} 
+  <li>
+    <div class="fun-block-info-option">
+      <label for="views_type">Views :</label>
+      <select id="views_type">
+        <option value="original">Original</option>
+        <option value="full">Full screen</option>
+      </select>
+    </div>
+  </li>
+  
+  {% for MLfunction in MLfunctions %}
+      <li><a href="{% url 'index'%}s={{ image_url|slice:"7:" }}/{{MLfunction}}">{{MLfunction}}</a></li>
+  {% endfor %}
+  {% endif %}
+</ul>
+{% endblock  %}
+

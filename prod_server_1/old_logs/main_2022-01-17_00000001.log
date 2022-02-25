@@ -1,0 +1,17 @@
+1 [2022.01.17 22:31:19.160514] [information] Starting master (pid = 19232)
+2 [2022.01.17 22:31:19.160514] [information] Global locale: en_US
+3 [2022.01.17 22:31:19.160514] [information] Global encoding: windows-1252
+4 [2022.01.17 22:31:19.160514] [information] terminal encoding: IBM437
+18 [2022.01.17 22:31:19.855547] [information] [SERVICE:FLEXlm Client] license unavailable
+19 [2022.01.17 22:31:19.855547] [information] [SERVICE:FLEXlm Client] temporarily disabling request processing
+20 [2022.01.17 22:31:19.855547] [information] [SERVICE:FLEXlm Client] reset current license type to be invalid
+34 [2022.01.17 22:31:20.043347] [information] [SERVICE:FLEXlm Client] current license type: "UNKNOWN"
+35 [2022.01.17 22:31:20.043347] [information] [SERVICE:FLEXlm Client] current license number: "For EveryOne"
+39 [2022.01.17 22:31:20.043347] [information] [SERVICE:FLEXlm Client] license checked out successfully
+46 [2022.01.17 22:31:21.268030] [information] [SERVICE:auto-deploy] Added 'Functions' ('G:\Programming Live\Learning\Lectures\Level 4\Image Process\Image Process Project\GUI\prod_server_1\auto_deploy\Functions.ctf' -> 'G:\Programming Live\Learning\Lectures\Level 4\Image Process\Image Process Project\GUI\prod_server_1\.mps_deployed\Functions_2')
+53 [2022.01.17 22:31:21.268030] [information] [SERVICE:FLEXlm Client] connection to license server recovered
+54 [2022.01.17 22:31:21.268030] [information] [SERVICE:FLEXlm Client] enable request processing
+65 [2022.01.17 22:31:21.315304] [information] [SERVICE:http] [endpoint:[::]:9910] Listening for connections
+66 [2022.01.17 22:31:22.162783] [out] [worker:1] Worker ready - protocol v2
+70 [2022.01.17 22:31:22.162783] [information] [SERVICE:worker] Worker 1 started
+75 [2022.01.17 22:31:22.178404] [information] Master started

@@ -1,0 +1,12 @@
+1 [2021.12.22 22:00:01.215378] [information] Starting master (pid = 13532)
+2 [2021.12.22 22:00:01.215378] [information] Global locale: en_US
+3 [2021.12.22 22:00:01.215378] [information] Global encoding: windows-1252
+4 [2021.12.22 22:00:01.215378] [information] terminal encoding: IBM437
+18 [2021.12.22 22:00:01.356372] [information] [SERVICE:FLEXlm Client] license unavailable
+19 [2021.12.22 22:00:01.356372] [information] [SERVICE:FLEXlm Client] temporarily disabling request processing
+20 [2021.12.22 22:00:01.356372] [information] [SERVICE:FLEXlm Client] reset current license type to be invalid
+33 [2021.12.22 22:00:01.609695] [error] [License:FlexlmLicenseApi] checkout() failed-95
+34 [2021.12.22 22:00:01.609695] [error] [License:FlexlmLicenseApi] License Checkout Error
+40 [2021.12.22 22:00:01.609695] [error] [SERVICE:FLEXlm Client] license checkout failed
+43 [2021.12.22 22:00:01.609695] [error] [SERVICE:FLEXlm Client] License Manager failed to start
+44 [2021.12.22 22:00:01.609695] [error] [SERVICE:FLEXlm Client] Failed to start with error, code = 16, message = license checkout failed

@@ -1,0 +1,24 @@
+1 [2021.12.26 19:25:48.054980] [information] Starting master (pid = 12848)
+2 [2021.12.26 19:25:48.054980] [information] Global locale: en_US
+3 [2021.12.26 19:25:48.054980] [information] Global encoding: windows-1252
+4 [2021.12.26 19:25:48.054980] [information] terminal encoding: IBM437
+18 [2021.12.26 19:25:48.785236] [information] [SERVICE:FLEXlm Client] license unavailable
+19 [2021.12.26 19:25:48.785236] [information] [SERVICE:FLEXlm Client] temporarily disabling request processing
+20 [2021.12.26 19:25:48.785236] [information] [SERVICE:FLEXlm Client] reset current license type to be invalid
+34 [2021.12.26 19:25:48.931797] [information] [SERVICE:FLEXlm Client] current license type: "UNKNOWN"
+35 [2021.12.26 19:25:48.931797] [information] [SERVICE:FLEXlm Client] current license number: "For EveryOne"
+39 [2021.12.26 19:25:48.931797] [information] [SERVICE:FLEXlm Client] license checked out successfully
+46 [2021.12.26 19:25:49.988425] [information] [SERVICE:auto-deploy] Added 'addTwoNum' ('G:\Programming Live\Learning\Lectures\Level 4\Image Process\Lab assginment\BondTools\for_redistribution\prod_server_1\auto_deploy\addTwoNum.ctf' -> 'G:\Programming Live\Learning\Lectures\Level 4\Image Process\Lab assginment\BondTools\for_redistribution\prod_server_1\.mps_deployed\addTwoNum_2')
+53 [2021.12.26 19:25:49.988425] [information] [SERVICE:FLEXlm Client] connection to license server recovered
+54 [2021.12.26 19:25:49.988425] [information] [SERVICE:FLEXlm Client] enable request processing
+65 [2021.12.26 19:25:50.015065] [information] [SERVICE:http] [endpoint:[::]:9910] Listening for connections
+66 [2021.12.26 19:25:50.832051] [out] [worker:1] Worker ready - protocol v2
+70 [2021.12.26 19:25:50.832051] [information] [SERVICE:worker] Worker 1 started
+75 [2021.12.26 19:25:50.832051] [information] Master started
+98 [2021.12.26 19:29:30.238542] [err] [worker:1] Error using +
+99 [2021.12.26 19:29:30.238542] [err] [worker:1] Matrix dimensions must agree.
+100 [2021.12.26 19:29:30.238542] [err] [worker:1] 
+101 [2021.12.26 19:29:30.239542] [err] [worker:1] Error in add (line 4)
+102 [2021.12.26 19:29:30.239542] [err] [worker:1] 
+103 [2021.12.26 19:29:30.239542] [err] [worker:1] 
+134 [2021.12.26 20:18:41.220976] [information] [SERVICE:auto-deploy] Added 'addTwoImages' ('G:\Programming Live\Learning\Lectures\Level 4\Image Process\Lab assginment\BondTools\for_redistribution\prod_server_1\auto_deploy\addTwoImages.ctf' -> 'G:\Programming Live\Learning\Lectures\Level 4\Image Process\Lab assginment\BondTools\for_redistribution\prod_server_1\.mps_deployed\addTwoImages_3')

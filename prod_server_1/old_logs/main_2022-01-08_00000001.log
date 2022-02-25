@@ -1,0 +1,18 @@
+1 [2022.01.08 11:36:24.949124] [information] Starting master (pid = 5852)
+2 [2022.01.08 11:36:24.964750] [information] Global locale: en_US
+3 [2022.01.08 11:36:24.964750] [information] Global encoding: windows-1252
+4 [2022.01.08 11:36:24.964750] [information] terminal encoding: IBM437
+18 [2022.01.08 11:36:25.184943] [information] [SERVICE:FLEXlm Client] license unavailable
+19 [2022.01.08 11:36:25.184943] [information] [SERVICE:FLEXlm Client] temporarily disabling request processing
+20 [2022.01.08 11:36:25.184943] [information] [SERVICE:FLEXlm Client] reset current license type to be invalid
+34 [2022.01.08 11:36:25.231841] [information] [SERVICE:FLEXlm Client] current license type: "UNKNOWN"
+35 [2022.01.08 11:36:25.231841] [information] [SERVICE:FLEXlm Client] current license number: "For EveryOne"
+39 [2022.01.08 11:36:25.231841] [information] [SERVICE:FLEXlm Client] license checked out successfully
+46 [2022.01.08 11:36:25.702104] [information] [SERVICE:auto-deploy] Added 'Brightness' ('G:\Programming Live\Achievements\Projects\Big Projects\Image Process\GUI\prod_server_1\auto_deploy\Brightness.ctf' -> 'G:\Programming Live\Achievements\Projects\Big Projects\Image Process\GUI\prod_server_1\.mps_deployed\Brightness_2')
+49 [2022.01.08 11:36:25.827478] [information] [SERVICE:auto-deploy] Added 'test' ('G:\Programming Live\Achievements\Projects\Big Projects\Image Process\GUI\prod_server_1\auto_deploy\test.ctf' -> 'G:\Programming Live\Achievements\Projects\Big Projects\Image Process\GUI\prod_server_1\.mps_deployed\test_3')
+56 [2022.01.08 11:36:25.843098] [information] [SERVICE:FLEXlm Client] connection to license server recovered
+57 [2022.01.08 11:36:25.843098] [information] [SERVICE:FLEXlm Client] enable request processing
+68 [2022.01.08 11:36:25.859154] [information] [SERVICE:http] [endpoint:[::]:9910] Listening for connections
+69 [2022.01.08 11:36:26.125592] [out] [worker:1] Worker ready - protocol v2
+73 [2022.01.08 11:36:26.125592] [information] [SERVICE:worker] Worker 1 started
+78 [2022.01.08 11:36:26.125592] [information] Master started

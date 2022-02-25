@@ -1,0 +1,42 @@
+{% extends "editor/layout.html" %} 
+{% load static %}
+
+{% block title %}
+  Brightness
+{% endblock  %}
+
+{% block display %}
+  {% if image_url %}
+  <img src="{{ image_url }}" class="col-12 view-orgin" id="display"> 
+  {% else %}
+  {% endif %}
+{% endblock  %}
+
+{% block btn_save %}
+  {% if image_url %}
+  {{ image_url }}  
+  {% endif %}
+{% endblock  %}
+
+
+{% block functionBar %}
+<div class="row-md-6 fun-block-bar"><a href="{% url 'index' %}{% if image_url %}s={{ image_url|slice:"7:" }}{% endif %}"><img src="{% static 'editor/images/back.png' %}" style="border-radius: 2px; width: 20px; padding-right: 3px;margin-left: -20px;">Functions</a> /Brightness</div>
+{% endblock  %}
+{% block functions %}
+
+<div class="fun-block-info-config col-md-12">
+<form method="post" class="col-md-12 " action="{% url 'index' %}s={{image_url|slice:"7:"}}/Brightness">
+    {% csrf_token %} 
+    <div class="fun-block-info-input">
+    <label>Bright Value :</label>
+    <input type="number" id="brightValue" name="value" min="-255" max="255">
+    </div>
+    
+    <div class="fun-block-info-input-btn">
+        <input type="submit" value="Preview" name="submit">
+        <a href="{% url 'index' %}">Cancel</a>
+        <input type="submit" value="Ok" name="submit">
+    </div>
+</form>
+</div>
+{% endblock  %}

@@ -1,0 +1,70 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static 'editor/css/bootstrap.css' %}">
+  <link rel="stylesheet" href="{% static 'editor/styles.css' %}">
+  <title>{% block title %}{% endblock %}</title>
+</head>
+
+<body>
+  <div class="container-fluid row">
+    <div class="col-md-9 main">
+      {% block display %}{% endblock  %}
+    </div>
+    <div class="col-md-3 sidebar">
+      <div class="row-md-3 block">
+        <div class="row-md-6 imgs-block-btn-bar">
+          <div >
+            <form class="upload-btn-wrapper" method="post" enctype="multipart/form-data" action="{% url 'index' %}" id="form">
+                {% csrf_token %}
+                <a class="btn"><img src="{% static 'editor/images/add.png' %}" style="width: 25px;padding-bottom: 5px;"> Add</a>
+                    <input type="file" name="upload" id="file" accept="image/*">
+              </form>
+          </div>
+
+          <a class="btn" href="{% url 'index' %}{% if image_url %}s={{ image_url|slice:"7:" }}/close{% endif %}"><img src="{% static 'editor/images/close.png' %}" style="width: 18px;padding-bottom: 3px;"> Close</a>
+          <a class="btn" href="{% url 'closeAll' %}"><img src="{% static 'editor/images/close all.png' %}" style="width: 25px;padding-bottom: 3px;"> Close All</a>
+          <a class="btn"
+            href="{% block btn_save %}{% endblock  %}"
+            download="Pyramids"><img src="{% static 'editor/images/save.png' %}" style="width: 20px;padding-bottom: 3px;"> Save</a>
+        </div>
+        <div class="row-md-6 imgs-block-info ">
+          <ul class="col-md-12">
+            {% for image in selectedImages %}
+              <li><a href="{% url 'index'%}s={{image}}">{{image}}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div class="row-md-3 block">
+        {% block functionBar %}
+        {% endblock  %}
+        <div class="row-md-6 fun-block-info">
+            {% block functions %}{% endblock  %}
+        </div>
+      </div>
+      <div class="row-md-3 block"><div class="row-md-6 prop-block-bar"><span>Properties</span></div>
+      <div class="row-md-6 prop-block-info">
+        <ul class="col-md-12">
+          {% if image_info and image_url %}
+            {% for key, value in image_info.items %} 
+              <li>{{key}} : {{value}}</li>
+            {% endfor %}
+            {% else %}
+            <li>No information </li> 
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+
+  </div>
+  <script src="{% static 'editor/js/bootstrap.js' %}"></script>
+  <script src="{% static 'editor/script.js' %}"></script>
+</body>
+
+</html>

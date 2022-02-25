@@ -1,0 +1,22 @@
+1 [2022.01.20 14:52:32.226462] [information] Starting master (pid = 16456)
+2 [2022.01.20 14:52:32.226462] [information] Global locale: en_US
+3 [2022.01.20 14:52:32.226462] [information] Global encoding: windows-1252
+4 [2022.01.20 14:52:32.226462] [information] terminal encoding: IBM437
+17 [2022.01.20 14:52:32.917045] [information] [SERVICE:FLEXlm Client] license unavailable
+19 [2022.01.20 14:52:32.917045] [information] [SERVICE:FLEXlm Client] temporarily disabling request processing
+20 [2022.01.20 14:52:32.917045] [information] [SERVICE:FLEXlm Client] reset current license type to be invalid
+34 [2022.01.20 14:52:33.026935] [information] [SERVICE:FLEXlm Client] current license type: "UNKNOWN"
+35 [2022.01.20 14:52:33.026935] [information] [SERVICE:FLEXlm Client] current license number: "For EveryOne"
+39 [2022.01.20 14:52:33.026935] [information] [SERVICE:FLEXlm Client] license checked out successfully
+46 [2022.01.20 14:52:35.272045] [information] [SERVICE:auto-deploy] Added 'Functions' ('G:\Programming Live\Learning\Lectures\Level 4\Image Process\Image Process Project\prod_server_1\auto_deploy\Functions.ctf' -> 'G:\Programming Live\Learning\Lectures\Level 4\Image Process\Image Process Project\prod_server_1\.mps_deployed\Functions_2')
+53 [2022.01.20 14:52:35.272045] [information] [SERVICE:FLEXlm Client] connection to license server recovered
+54 [2022.01.20 14:52:35.272045] [information] [SERVICE:FLEXlm Client] enable request processing
+65 [2022.01.20 14:52:35.350566] [information] [SERVICE:http] [endpoint:[::]:9910] Listening for connections
+66 [2022.01.20 14:52:36.692919] [out] [worker:1] Worker ready - protocol v2
+70 [2022.01.20 14:52:36.692919] [information] [SERVICE:worker] Worker 1 started
+75 [2022.01.20 14:52:36.708540] [information] Master started
+100 [2022.01.20 14:59:08.342864] [err] [worker:1] Index exceeds matrix dimensions.
+101 [2022.01.20 14:59:08.342864] [err] [worker:1] 
+102 [2022.01.20 14:59:08.342864] [err] [worker:1] Error in addTwoImages (line 36)
+103 [2022.01.20 14:59:08.342864] [err] [worker:1] 
+104 [2022.01.20 14:59:08.342864] [err] [worker:1] 

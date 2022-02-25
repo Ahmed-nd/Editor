@@ -1,0 +1,216 @@
+1 [2022.01.10 16:59:26.784626] [information] Starting master (pid = 11956)
+2 [2022.01.10 16:59:26.784626] [information] Global locale: en_US
+3 [2022.01.10 16:59:26.784626] [information] Global encoding: windows-1252
+4 [2022.01.10 16:59:26.784626] [information] terminal encoding: IBM437
+18 [2022.01.10 16:59:27.774522] [information] [SERVICE:FLEXlm Client] license unavailable
+19 [2022.01.10 16:59:27.774522] [information] [SERVICE:FLEXlm Client] temporarily disabling request processing
+20 [2022.01.10 16:59:27.774522] [information] [SERVICE:FLEXlm Client] reset current license type to be invalid
+34 [2022.01.10 16:59:27.884264] [information] [SERVICE:FLEXlm Client] current license type: "UNKNOWN"
+35 [2022.01.10 16:59:27.884264] [information] [SERVICE:FLEXlm Client] current license number: "For EveryOne"
+39 [2022.01.10 16:59:27.884264] [information] [SERVICE:FLEXlm Client] license checked out successfully
+46 [2022.01.10 16:59:28.826149] [information] [SERVICE:auto-deploy] Added 'Brightness' ('G:\Programming Live\Achievements\Projects\Big Projects\Image Process\GUI\prod_server_1\auto_deploy\Brightness.ctf' -> 'G:\Programming Live\Achievements\Projects\Big Projects\Image Process\GUI\prod_server_1\.mps_deployed\Brightness_2')
+49 [2022.01.10 16:59:28.967217] [information] [SERVICE:auto-deploy] Added 'test' ('G:\Programming Live\Achievements\Projects\Big Projects\Image Process\GUI\prod_server_1\auto_deploy\test.ctf' -> 'G:\Programming Live\Achievements\Projects\Big Projects\Image Process\GUI\prod_server_1\.mps_deployed\test_3')
+56 [2022.01.10 16:59:28.967217] [information] [SERVICE:FLEXlm Client] connection to license server recovered
+57 [2022.01.10 16:59:28.967217] [information] [SERVICE:FLEXlm Client] enable request processing
+68 [2022.01.10 16:59:28.998459] [information] [SERVICE:http] [endpoint:[::]:9910] Listening for connections
+69 [2022.01.10 16:59:29.798503] [out] [worker:1] Worker ready - protocol v2
+73 [2022.01.10 16:59:29.798503] [information] [SERVICE:worker] Worker 1 started
+78 [2022.01.10 16:59:29.798503] [information] Master started
+89 [2022.01.10 17:24:11.931416] [err] [worker:1] Error using readContentFromWebService (line 45)
+90 [2022.01.10 17:24:11.931416] [err] [worker:1] The server returned the message: "Not Found" for URL, 'http://127.0.0.1:8000/media/4_DxVT2F2.jpg' (with HTTP response code 404).
+91 [2022.01.10 17:24:11.931416] [err] [worker:1] 
+92 [2022.01.10 17:24:11.931416] [err] [worker:1] Error in webread (line 122)
+93 [2022.01.10 17:24:11.931416] [err] [worker:1] 
+94 [2022.01.10 17:24:11.931416] [err] [worker:1] 
+95 [2022.01.10 17:24:11.931416] [err] [worker:1] Error in Brightness (line 4)
+96 [2022.01.10 17:24:11.931416] [err] [worker:1] 
+97 [2022.01.10 17:24:11.931416] [err] [worker:1] 
+100 [2022.01.10 17:24:27.103151] [err] [worker:1] Error using readContentFromWebService (line 45)
+101 [2022.01.10 17:24:27.103151] [err] [worker:1] The server returned the message: "Not Found" for URL, 'http://127.0.0.1:8000/media/4_DxVT2F2.jpg' (with HTTP response code 404).
+102 [2022.01.10 17:24:27.103151] [err] [worker:1] 
+103 [2022.01.10 17:24:27.103151] [err] [worker:1] Error in webread (line 122)
+104 [2022.01.10 17:24:27.103151] [err] [worker:1] 
+105 [2022.01.10 17:24:27.103151] [err] [worker:1] 
+106 [2022.01.10 17:24:27.103151] [err] [worker:1] Error in Brightness (line 4)
+107 [2022.01.10 17:24:27.103151] [err] [worker:1] 
+108 [2022.01.10 17:24:27.103151] [err] [worker:1] 
+119 [2022.01.10 17:25:13.112973] [err] [worker:1] Error using readContentFromWebService (line 45)
+120 [2022.01.10 17:25:13.112973] [err] [worker:1] The server returned the message: "Not Found" for URL, 'http://127.0.0.1:8000/media/4_DxVT2F2.jpg' (with HTTP response code 404).
+121 [2022.01.10 17:25:13.112973] [err] [worker:1] 
+122 [2022.01.10 17:25:13.112973] [err] [worker:1] Error in webread (line 122)
+123 [2022.01.10 17:25:13.112973] [err] [worker:1] 
+124 [2022.01.10 17:25:13.112973] [err] [worker:1] 
+125 [2022.01.10 17:25:13.112973] [err] [worker:1] Error in Brightness (line 4)
+126 [2022.01.10 17:25:13.112973] [err] [worker:1] 
+127 [2022.01.10 17:25:13.112973] [err] [worker:1] 
+130 [2022.01.10 17:25:23.819126] [err] [worker:1] Error using readContentFromWebService (line 45)
+131 [2022.01.10 17:25:23.819126] [err] [worker:1] The server returned the message: "Not Found" for URL, 'http://127.0.0.1:8000/media/4_DxVT2F2.jpg' (with HTTP response code 404).
+132 [2022.01.10 17:25:23.819126] [err] [worker:1] 
+133 [2022.01.10 17:25:23.819126] [err] [worker:1] Error in webread (line 122)
+134 [2022.01.10 17:25:23.819126] [err] [worker:1] 
+135 [2022.01.10 17:25:23.819126] [err] [worker:1] 
+136 [2022.01.10 17:25:23.819126] [err] [worker:1] Error in Brightness (line 4)
+137 [2022.01.10 17:25:23.819126] [err] [worker:1] 
+138 [2022.01.10 17:25:23.819126] [err] [worker:1] 
+190 [2022.01.10 19:09:56.879572] [err] [worker:1] Error using readContentFromFile (line 28)
+191 [2022.01.10 19:09:56.879572] [err] [worker:1] The content reader issued the error message: "Unable to determine the file format.", while reading the content downloaded from URL 'http://127.0.0.1:8000/media/4_dsSR0MB.jpg'. Use the function WEBSAVE to save the content to a file.
+192 [2022.01.10 19:09:56.879572] [err] [worker:1] 
+193 [2022.01.10 19:09:56.879572] [err] [worker:1] Error in readContentFromWebService (line 64)
+194 [2022.01.10 19:09:56.879572] [err] [worker:1] 
+195 [2022.01.10 19:09:56.879572] [err] [worker:1] 
+196 [2022.01.10 19:09:56.879572] [err] [worker:1] Error in webread (line 122)
+197 [2022.01.10 19:09:56.879572] [err] [worker:1] 
+198 [2022.01.10 19:09:56.879572] [err] [worker:1] 
+199 [2022.01.10 19:09:56.879572] [err] [worker:1] Error in Brightness (line 4)
+200 [2022.01.10 19:09:56.879572] [err] [worker:1] 
+201 [2022.01.10 19:09:56.879572] [err] [worker:1] 
+204 [2022.01.10 19:11:00.169488] [err] [worker:1] Error using readContentFromFile (line 28)
+205 [2022.01.10 19:11:00.169488] [err] [worker:1] The content reader issued the error message: "Unable to determine the file format.", while reading the content downloaded from URL 'http://127.0.0.1:8000/media/4_dsSR0MB.jpg'. Use the function WEBSAVE to save the content to a file.
+206 [2022.01.10 19:11:00.169488] [err] [worker:1] 
+207 [2022.01.10 19:11:00.169488] [err] [worker:1] Error in readContentFromWebService (line 64)
+208 [2022.01.10 19:11:00.169488] [err] [worker:1] 
+209 [2022.01.10 19:11:00.169488] [err] [worker:1] 
+210 [2022.01.10 19:11:00.169488] [err] [worker:1] Error in webread (line 122)
+211 [2022.01.10 19:11:00.169488] [err] [worker:1] 
+212 [2022.01.10 19:11:00.169488] [err] [worker:1] 
+213 [2022.01.10 19:11:00.169488] [err] [worker:1] Error in Brightness (line 4)
+214 [2022.01.10 19:11:00.169488] [err] [worker:1] 
+215 [2022.01.10 19:11:00.169488] [err] [worker:1] 
+218 [2022.01.10 19:18:53.473687] [err] [worker:1] Error using readContentFromFile (line 28)
+219 [2022.01.10 19:18:53.473687] [err] [worker:1] The content reader issued the error message: "Unable to determine the file format.", while reading the content downloaded from URL 'http://127.0.0.1:8000/media/4_dsSR0MB.jpg'. Use the function WEBSAVE to save the content to a file.
+220 [2022.01.10 19:18:53.473687] [err] [worker:1] 
+221 [2022.01.10 19:18:53.473687] [err] [worker:1] Error in readContentFromWebService (line 64)
+222 [2022.01.10 19:18:53.473687] [err] [worker:1] 
+223 [2022.01.10 19:18:53.473687] [err] [worker:1] 
+224 [2022.01.10 19:18:53.473687] [err] [worker:1] Error in webread (line 122)
+225 [2022.01.10 19:18:53.473687] [err] [worker:1] 
+226 [2022.01.10 19:18:53.473687] [err] [worker:1] 
+227 [2022.01.10 19:18:53.474642] [err] [worker:1] Error in Brightness (line 4)
+228 [2022.01.10 19:18:53.474642] [err] [worker:1] 
+229 [2022.01.10 19:18:53.474642] [err] [worker:1] 
+235 [2022.01.10 19:20:14.364758] [err] [worker:1] Error using readContentFromFile (line 28)
+236 [2022.01.10 19:20:14.364758] [err] [worker:1] The content reader issued the error message: "Unable to determine the file format.", while reading the content downloaded from URL 'http://127.0.0.1:8000/media/4_dsSR0MB.jpg'. Use the function WEBSAVE to save the content to a file.
+237 [2022.01.10 19:20:14.364758] [err] [worker:1] 
+238 [2022.01.10 19:20:14.364758] [err] [worker:1] Error in readContentFromWebService (line 64)
+239 [2022.01.10 19:20:14.364758] [err] [worker:1] 
+240 [2022.01.10 19:20:14.364758] [err] [worker:1] 
+241 [2022.01.10 19:20:14.364758] [err] [worker:1] Error in webread (line 122)
+242 [2022.01.10 19:20:14.364758] [err] [worker:1] 
+243 [2022.01.10 19:20:14.364758] [err] [worker:1] 
+244 [2022.01.10 19:20:14.364758] [err] [worker:1] Error in Brightness (line 4)
+245 [2022.01.10 19:20:14.364758] [err] [worker:1] 
+246 [2022.01.10 19:20:14.364758] [err] [worker:1] 
+249 [2022.01.10 19:21:48.890146] [err] [worker:1] Error using readContentFromFile (line 28)
+250 [2022.01.10 19:21:48.890146] [err] [worker:1] The content reader issued the error message: "Unable to determine the file format.", while reading the content downloaded from URL 'http://127.0.0.1:8000/media/4_dsSR0MB.jpg'. Use the function WEBSAVE to save the content to a file.
+251 [2022.01.10 19:21:48.890146] [err] [worker:1] 
+252 [2022.01.10 19:21:48.890146] [err] [worker:1] Error in readContentFromWebService (line 64)
+253 [2022.01.10 19:21:48.890146] [err] [worker:1] 
+254 [2022.01.10 19:21:48.890146] [err] [worker:1] 
+255 [2022.01.10 19:21:48.890146] [err] [worker:1] Error in webread (line 122)
+256 [2022.01.10 19:21:48.890146] [err] [worker:1] 
+257 [2022.01.10 19:21:48.890146] [err] [worker:1] 
+258 [2022.01.10 19:21:48.890146] [err] [worker:1] Error in Brightness (line 4)
+259 [2022.01.10 19:21:48.890146] [err] [worker:1] 
+260 [2022.01.10 19:21:48.890146] [err] [worker:1] 
+263 [2022.01.10 19:23:57.687940] [err] [worker:1] Error using readContentFromFile (line 28)
+264 [2022.01.10 19:23:57.687940] [err] [worker:1] The content reader issued the error message: "Unable to determine the file format.", while reading the content downloaded from URL 'http://127.0.0.1:8000/media/4_dsSR0MB.jpg'. Use the function WEBSAVE to save the content to a file.
+265 [2022.01.10 19:23:57.687940] [err] [worker:1] 
+266 [2022.01.10 19:23:57.687940] [err] [worker:1] Error in readContentFromWebService (line 64)
+267 [2022.01.10 19:23:57.688936] [err] [worker:1] 
+268 [2022.01.10 19:23:57.688936] [err] [worker:1] 
+269 [2022.01.10 19:23:57.688936] [err] [worker:1] Error in webread (line 122)
+270 [2022.01.10 19:23:57.688936] [err] [worker:1] 
+271 [2022.01.10 19:23:57.688936] [err] [worker:1] 
+272 [2022.01.10 19:23:57.688936] [err] [worker:1] Error in Brightness (line 4)
+273 [2022.01.10 19:23:57.688936] [err] [worker:1] 
+274 [2022.01.10 19:23:57.688936] [err] [worker:1] 
+277 [2022.01.10 19:24:56.040153] [err] [worker:1] Error using readContentFromFile (line 28)
+278 [2022.01.10 19:24:56.040153] [err] [worker:1] The content reader issued the error message: "Unable to determine the file format.", while reading the content downloaded from URL 'http://127.0.0.1:8000/media/4_dsSR0MB.jpg'. Use the function WEBSAVE to save the content to a file.
+279 [2022.01.10 19:24:56.040153] [err] [worker:1] 
+280 [2022.01.10 19:24:56.040153] [err] [worker:1] Error in readContentFromWebService (line 64)
+281 [2022.01.10 19:24:56.040153] [err] [worker:1] 
+282 [2022.01.10 19:24:56.040153] [err] [worker:1] 
+283 [2022.01.10 19:24:56.040153] [err] [worker:1] Error in webread (line 122)
+284 [2022.01.10 19:24:56.040153] [err] [worker:1] 
+285 [2022.01.10 19:24:56.040153] [err] [worker:1] 
+286 [2022.01.10 19:24:56.040153] [err] [worker:1] Error in Brightness (line 4)
+287 [2022.01.10 19:24:56.040153] [err] [worker:1] 
+288 [2022.01.10 19:24:56.040153] [err] [worker:1] 
+291 [2022.01.10 19:26:33.812922] [err] [worker:1] Error using readContentFromFile (line 28)
+292 [2022.01.10 19:26:33.812922] [err] [worker:1] The content reader issued the error message: "Unable to determine the file format.", while reading the content downloaded from URL 'http://127.0.0.1:8000/media/4_dsSR0MB.jpg'. Use the function WEBSAVE to save the content to a file.
+293 [2022.01.10 19:26:33.812922] [err] [worker:1] 
+294 [2022.01.10 19:26:33.812922] [err] [worker:1] Error in readContentFromWebService (line 64)
+295 [2022.01.10 19:26:33.812922] [err] [worker:1] 
+296 [2022.01.10 19:26:33.812922] [err] [worker:1] 
+297 [2022.01.10 19:26:33.812922] [err] [worker:1] Error in webread (line 122)
+298 [2022.01.10 19:26:33.812922] [err] [worker:1] 
+299 [2022.01.10 19:26:33.812922] [err] [worker:1] 
+300 [2022.01.10 19:26:33.812922] [err] [worker:1] Error in Brightness (line 4)
+301 [2022.01.10 19:26:33.812922] [err] [worker:1] 
+302 [2022.01.10 19:26:33.812922] [err] [worker:1] 
+314 [2022.01.10 19:38:42.510126] [err] [worker:1] Error using readContentFromFile (line 28)
+315 [2022.01.10 19:38:42.510126] [err] [worker:1] The content reader issued the error message: "Unable to determine the file format.", while reading the content downloaded from URL 'http://127.0.0.1:8000/media/4.jpg'. Use the function WEBSAVE to save the content to a file.
+316 [2022.01.10 19:38:42.510126] [err] [worker:1] 
+317 [2022.01.10 19:38:42.510126] [err] [worker:1] Error in readContentFromWebService (line 64)
+318 [2022.01.10 19:38:42.510126] [err] [worker:1] 
+319 [2022.01.10 19:38:42.510126] [err] [worker:1] 
+320 [2022.01.10 19:38:42.510126] [err] [worker:1] Error in webread (line 122)
+321 [2022.01.10 19:38:42.510126] [err] [worker:1] 
+322 [2022.01.10 19:38:42.510126] [err] [worker:1] 
+323 [2022.01.10 19:38:42.510126] [err] [worker:1] Error in Brightness (line 4)
+324 [2022.01.10 19:38:42.510126] [err] [worker:1] 
+325 [2022.01.10 19:38:42.510126] [err] [worker:1] 
+328 [2022.01.10 19:39:04.080992] [err] [worker:1] Error using readContentFromFile (line 28)
+329 [2022.01.10 19:39:04.080992] [err] [worker:1] The content reader issued the error message: "Unable to determine the file format.", while reading the content downloaded from URL 'http://127.0.0.1:8000/media/4_dsSR0MB.jpg'. Use the function WEBSAVE to save the content to a file.
+330 [2022.01.10 19:39:04.080992] [err] [worker:1] 
+331 [2022.01.10 19:39:04.080992] [err] [worker:1] Error in readContentFromWebService (line 64)
+332 [2022.01.10 19:39:04.080992] [err] [worker:1] 
+333 [2022.01.10 19:39:04.080992] [err] [worker:1] 
+334 [2022.01.10 19:39:04.080992] [err] [worker:1] Error in webread (line 122)
+335 [2022.01.10 19:39:04.080992] [err] [worker:1] 
+336 [2022.01.10 19:39:04.080992] [err] [worker:1] 
+337 [2022.01.10 19:39:04.080992] [err] [worker:1] Error in Brightness (line 4)
+338 [2022.01.10 19:39:04.080992] [err] [worker:1] 
+339 [2022.01.10 19:39:04.080992] [err] [worker:1] 
+345 [2022.01.10 19:44:00.829407] [err] [worker:1] Error using readContentFromFile (line 28)
+346 [2022.01.10 19:44:00.829407] [err] [worker:1] The content reader issued the error message: "Unable to determine the file format.", while reading the content downloaded from URL 'http://127.0.0.1:8000/media/4_dsSR0MB.jpg'. Use the function WEBSAVE to save the content to a file.
+347 [2022.01.10 19:44:00.829407] [err] [worker:1] 
+348 [2022.01.10 19:44:00.829407] [err] [worker:1] Error in readContentFromWebService (line 64)
+349 [2022.01.10 19:44:00.829407] [err] [worker:1] 
+350 [2022.01.10 19:44:00.829407] [err] [worker:1] 
+351 [2022.01.10 19:44:00.829407] [err] [worker:1] Error in webread (line 122)
+352 [2022.01.10 19:44:00.829407] [err] [worker:1] 
+353 [2022.01.10 19:44:00.829407] [err] [worker:1] 
+354 [2022.01.10 19:44:00.829407] [err] [worker:1] Error in Brightness (line 4)
+355 [2022.01.10 19:44:00.829407] [err] [worker:1] 
+356 [2022.01.10 19:44:00.829407] [err] [worker:1] 
+361 [2022.01.10 19:45:37.119654] [err] [worker:1] Error using readContentFromWebService (line 45)
+362 [2022.01.10 19:45:37.119654] [err] [worker:1] The server returned the message: "Not Found" for URL, 'http://127.0.0.1:8000/media/4_Qz1nzj5.jpg' (with HTTP response code 404).
+363 [2022.01.10 19:45:37.119654] [err] [worker:1] 
+364 [2022.01.10 19:45:37.119654] [err] [worker:1] Error in webread (line 122)
+365 [2022.01.10 19:45:37.119654] [err] [worker:1] 
+366 [2022.01.10 19:45:37.119654] [err] [worker:1] 
+367 [2022.01.10 19:45:37.119654] [err] [worker:1] Error in Brightness (line 4)
+368 [2022.01.10 19:45:37.119654] [err] [worker:1] 
+369 [2022.01.10 19:45:37.119654] [err] [worker:1] 
+374 [2022.01.10 19:47:28.050667] [err] [worker:1] Error using readContentFromWebService (line 45)
+375 [2022.01.10 19:47:28.050667] [err] [worker:1] The server returned the message: "Not Found" for URL, 'http://127.0.0.1:8000/media/4.jpg' (with HTTP response code 404).
+376 [2022.01.10 19:47:28.050667] [err] [worker:1] 
+377 [2022.01.10 19:47:28.050667] [err] [worker:1] Error in webread (line 122)
+378 [2022.01.10 19:47:28.050667] [err] [worker:1] 
+379 [2022.01.10 19:47:28.050667] [err] [worker:1] 
+380 [2022.01.10 19:47:28.050667] [err] [worker:1] Error in Brightness (line 4)
+381 [2022.01.10 19:47:28.050667] [err] [worker:1] 
+382 [2022.01.10 19:47:28.050667] [err] [worker:1] 
+390 [2022.01.10 19:55:48.966598] [err] [worker:1] Error using readContentFromWebService (line 45)
+391 [2022.01.10 19:55:48.966598] [err] [worker:1] The server returned the message: "Not Found" for URL, 'http://127.0.0.1:8000/media/2.jpg' (with HTTP response code 404).
+392 [2022.01.10 19:55:48.966598] [err] [worker:1] 
+393 [2022.01.10 19:55:48.966598] [err] [worker:1] Error in webread (line 122)
+394 [2022.01.10 19:55:48.966598] [err] [worker:1] 
+395 [2022.01.10 19:55:48.966598] [err] [worker:1] 
+396 [2022.01.10 19:55:48.966598] [err] [worker:1] Error in Brightness (line 4)
+397 [2022.01.10 19:55:48.966598] [err] [worker:1] 
+398 [2022.01.10 19:55:48.966598] [err] [worker:1] 
+534 [2022.01.10 23:27:50.333823] [information] [SERVICE:auto-deploy] Added 'Functions' ('G:\Programming Live\Achievements\Projects\Big Projects\Image Process\GUI\prod_server_1\auto_deploy\Functions.ctf' -> 'G:\Programming Live\Achievements\Projects\Big Projects\Image Process\GUI\prod_server_1\.mps_deployed\Functions_4')
+537 [2022.01.10 23:28:00.350349] [information] [SERVICE:auto-deploy] Removed 'Brightness'
+538 [2022.01.10 23:28:00.350349] [information] [SERVICE:auto-deploy] Removed 'test'

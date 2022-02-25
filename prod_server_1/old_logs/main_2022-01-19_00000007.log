@@ -1,0 +1,29 @@
+1 [2022.01.19 20:47:32.084593] [information] Starting master (pid = 2216)
+2 [2022.01.19 20:47:32.084593] [information] Global locale: en_US
+3 [2022.01.19 20:47:32.084593] [information] Global encoding: windows-1252
+4 [2022.01.19 20:47:32.084593] [information] terminal encoding: IBM437
+18 [2022.01.19 20:47:32.381385] [information] [SERVICE:FLEXlm Client] license unavailable
+19 [2022.01.19 20:47:32.381385] [information] [SERVICE:FLEXlm Client] temporarily disabling request processing
+20 [2022.01.19 20:47:32.381385] [information] [SERVICE:FLEXlm Client] reset current license type to be invalid
+34 [2022.01.19 20:47:32.508041] [information] [SERVICE:FLEXlm Client] current license type: "UNKNOWN"
+35 [2022.01.19 20:47:32.508041] [information] [SERVICE:FLEXlm Client] current license number: "For EveryOne"
+39 [2022.01.19 20:47:32.508041] [information] [SERVICE:FLEXlm Client] license checked out successfully
+46 [2022.01.19 20:47:33.092287] [information] [SERVICE:auto-deploy] Added 'Functions' ('G:\Programming Live\Learning\Lectures\Level 4\Image Process\Image Process Project\prod_server_1\auto_deploy\Functions.ctf' -> 'G:\Programming Live\Learning\Lectures\Level 4\Image Process\Image Process Project\prod_server_1\.mps_deployed\Functions_2')
+53 [2022.01.19 20:47:33.092287] [information] [SERVICE:FLEXlm Client] connection to license server recovered
+55 [2022.01.19 20:47:33.092287] [information] [SERVICE:FLEXlm Client] enable request processing
+65 [2022.01.19 20:47:33.092287] [information] [SERVICE:http] [endpoint:[::]:9910] Listening for connections
+66 [2022.01.19 20:47:33.278367] [out] [worker:1] Worker ready - protocol v2
+70 [2022.01.19 20:47:33.278367] [information] [SERVICE:worker] Worker 1 started
+75 [2022.01.19 20:47:33.278367] [information] Master started
+127 [2022.01.19 21:58:23.934683] [information] [SERVICE:worker] Waiting for worker 1 to finish pending activity
+128 [2022.01.19 21:58:23.934683] [information] [SERVICE:worker] Starting graceful shutdown of worker 1
+129 [2022.01.19 21:58:23.934683] [information] [SERVICE:worker] Shutdown request was successfully sent to worker 1; waiting for process to exit...
+133 [2022.01.19 21:58:25.170354] [information] [SERVICE:worker] Worker 1 exited with code 0
+135 [2022.01.19 21:58:25.170354] [information] [SERVICE:worker] Worker 1 successfully stopped.
+145 [2022.01.19 21:58:25.171288] [information] [SERVICE:FLEXlm Client] customer shutdown
+149 [2022.01.19 21:58:25.171288] [information] [SERVICE:FLEXlm Client] license unavailable
+150 [2022.01.19 21:58:25.171288] [information] [SERVICE:FLEXlm Client] temporarily disabling request processing
+151 [2022.01.19 21:58:25.171288] [information] [SERVICE:FLEXlm Client] reset current license type to be invalid
+161 [2022.01.19 21:58:25.171288] [information] [SERVICE:FLEXlm Client] licensing shutdown successfully
+164 [2022.01.19 21:58:25.171288] [error] [SERVICE:FLEXlm Client] Stop License Manager
+167 [2022.01.19 21:58:25.172288] [information] Master stopped

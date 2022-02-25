@@ -1,0 +1,69 @@
+1 [2022.01.07 18:42:53.328015] [information] Starting master (pid = 16456)
+2 [2022.01.07 18:42:53.328015] [information] Global locale: en_US
+3 [2022.01.07 18:42:53.328015] [information] Global encoding: windows-1252
+4 [2022.01.07 18:42:53.328015] [information] terminal encoding: IBM437
+18 [2022.01.07 18:42:53.877547] [information] [SERVICE:FLEXlm Client] license unavailable
+19 [2022.01.07 18:42:53.877547] [information] [SERVICE:FLEXlm Client] temporarily disabling request processing
+20 [2022.01.07 18:42:53.877547] [information] [SERVICE:FLEXlm Client] reset current license type to be invalid
+34 [2022.01.07 18:42:54.050787] [information] [SERVICE:FLEXlm Client] current license type: "UNKNOWN"
+35 [2022.01.07 18:42:54.050787] [information] [SERVICE:FLEXlm Client] current license number: "For EveryOne"
+39 [2022.01.07 18:42:54.050787] [information] [SERVICE:FLEXlm Client] license checked out successfully
+46 [2022.01.07 18:42:54.882853] [information] [SERVICE:auto-deploy] Added 'test' ('C:\Users\ahmed\OneDrive\Desktop\prod_server_1\auto_deploy\test.ctf' -> 'C:\Users\ahmed\OneDrive\Desktop\prod_server_1\.mps_deployed\test_2')
+53 [2022.01.07 18:42:54.882853] [information] [SERVICE:FLEXlm Client] connection to license server recovered
+54 [2022.01.07 18:42:54.882853] [information] [SERVICE:FLEXlm Client] enable request processing
+65 [2022.01.07 18:42:54.945771] [information] [SERVICE:http] [endpoint:[::]:9910] Listening for connections
+66 [2022.01.07 18:42:55.641879] [out] [worker:1] Worker ready - protocol v2
+70 [2022.01.07 18:42:55.641879] [information] [SERVICE:worker] Worker 1 started
+75 [2022.01.07 18:42:55.657501] [information] Master started
+82 [2022.01.07 18:42:59.311767] [error] [connection_id:2] [service:http-connection] URL not found
+88 [2022.01.07 18:44:21.560572] [error] [connection_id:4] [service:http-connection] URL not found
+94 [2022.01.07 18:45:11.412055] [error] [connection_id:6] [service:http-connection] URL not found
+101 [2022.01.07 18:45:18.189082] [error] [connection_id:8] [service:http-connection] do not continue
+103 [2022.01.07 18:45:20.195771] [error] [connection_id:8] [service:http-connection] do not continue
+105 [2022.01.07 18:45:38.085987] [error] [connection_id:8] [service:http-connection] do not continue
+107 [2022.01.07 18:45:39.266630] [error] [connection_id:8] [service:http-connection] do not continue
+114 [2022.01.07 18:45:55.721582] [error] [connection_id:10] [service:http-connection] do not continue
+116 [2022.01.07 18:46:14.493487] [error] [connection_id:10] [service:http-connection] do not continue
+118 [2022.01.07 18:46:17.040914] [error] [connection_id:10] [service:http-connection] do not continue
+120 [2022.01.07 18:47:49.275197] [error] [connection_id:10] [service:http-connection] do not continue
+122 [2022.01.07 18:47:51.261457] [error] [connection_id:10] [service:http-connection] do not continue
+124 [2022.01.07 18:48:11.748135] [error] [connection_id:10] [service:http-connection] do not continue
+126 [2022.01.07 18:48:12.623093] [error] [connection_id:10] [service:http-connection] do not continue
+128 [2022.01.07 18:49:36.398311] [error] [connection_id:10] [service:http-connection] do not continue
+136 [2022.01.07 19:05:14.775349] [error] [connection_id:10] [service:http-connection] do not continue
+138 [2022.01.07 19:05:16.126635] [error] [connection_id:10] [service:http-connection] do not continue
+140 [2022.01.07 19:05:16.943326] [error] [connection_id:10] [service:http-connection] do not continue
+142 [2022.01.07 19:06:18.362501] [error] [connection_id:10] [service:http-connection] do not continue
+144 [2022.01.07 19:06:36.922640] [error] [connection_id:10] [service:http-connection] do not continue
+146 [2022.01.07 19:07:23.779379] [error] [connection_id:10] [service:http-connection] do not continue
+148 [2022.01.07 19:07:24.637123] [error] [connection_id:10] [service:http-connection] do not continue
+150 [2022.01.07 19:07:45.804949] [error] [connection_id:10] [service:http-connection] do not continue
+152 [2022.01.07 19:08:46.834653] [error] [connection_id:10] [service:http-connection] do not continue
+166 [2022.01.07 19:10:14.308113] [error] [connection_id:12] [service:http-connection] do not continue
+168 [2022.01.07 19:10:50.779960] [error] [connection_id:12] [service:http-connection] do not continue
+170 [2022.01.07 19:11:07.365964] [error] [connection_id:12] [service:http-connection] do not continue
+172 [2022.01.07 19:11:19.681751] [error] [connection_id:12] [service:http-connection] do not continue
+174 [2022.01.07 19:11:43.436589] [error] [connection_id:12] [service:http-connection] do not continue
+176 [2022.01.07 19:11:44.218170] [error] [connection_id:12] [service:http-connection] do not continue
+180 [2022.01.07 19:14:02.912431] [information] [SERVICE:auto-deploy] Added 'Brightness' ('C:\Users\ahmed\OneDrive\Desktop\prod_server_1\auto_deploy\Brightness.ctf' -> 'C:\Users\ahmed\OneDrive\Desktop\prod_server_1\.mps_deployed\Brightness_3')
+184 [2022.01.07 19:14:19.335971] [error] [connection_id:12] [service:http-connection] do not continue
+186 [2022.01.07 19:14:20.236381] [error] [connection_id:12] [service:http-connection] do not continue
+188 [2022.01.07 19:14:20.781875] [error] [connection_id:12] [service:http-connection] do not continue
+190 [2022.01.07 19:14:37.376769] [error] [connection_id:12] [service:http-connection] do not continue
+192 [2022.01.07 19:14:38.104166] [error] [connection_id:12] [service:http-connection] do not continue
+194 [2022.01.07 19:14:38.647857] [error] [connection_id:12] [service:http-connection] do not continue
+196 [2022.01.07 19:14:48.858237] [error] [connection_id:12] [service:http-connection] do not continue
+198 [2022.01.07 19:14:50.338211] [error] [connection_id:12] [service:http-connection] do not continue
+415 [2022.01.07 21:02:24.061117] [information] [SERVICE:auto-deploy] Updated 'Brightness' ('C:\Users\ahmed\OneDrive\Desktop\prod_server_1\auto_deploy\Brightness.ctf' -> 'C:\Users\ahmed\OneDrive\Desktop\prod_server_1\.mps_deployed\Brightness_4')
+546 [2022.01.07 21:56:09.511239] [information] [SERVICE:worker] Waiting for worker 1 to finish pending activity
+547 [2022.01.07 21:56:09.511239] [information] [SERVICE:worker] Starting graceful shutdown of worker 1
+548 [2022.01.07 21:56:09.511239] [information] [SERVICE:worker] Shutdown request was successfully sent to worker 1; waiting for process to exit...
+552 [2022.01.07 21:56:11.221676] [information] [SERVICE:worker] Worker 1 exited with code 0
+554 [2022.01.07 21:56:11.221676] [information] [SERVICE:worker] Worker 1 successfully stopped.
+564 [2022.01.07 21:56:11.221676] [information] [SERVICE:FLEXlm Client] customer shutdown
+568 [2022.01.07 21:56:11.221676] [information] [SERVICE:FLEXlm Client] license unavailable
+569 [2022.01.07 21:56:11.221676] [information] [SERVICE:FLEXlm Client] temporarily disabling request processing
+570 [2022.01.07 21:56:11.221676] [information] [SERVICE:FLEXlm Client] reset current license type to be invalid
+580 [2022.01.07 21:56:11.221676] [information] [SERVICE:FLEXlm Client] licensing shutdown successfully
+583 [2022.01.07 21:56:11.221676] [error] [SERVICE:FLEXlm Client] Stop License Manager
+586 [2022.01.07 21:56:11.221676] [information] Master stopped

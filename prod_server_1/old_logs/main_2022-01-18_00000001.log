@@ -1,0 +1,109 @@
+1 [2022.01.18 19:18:44.283678] [information] Starting master (pid = 6808)
+2 [2022.01.18 19:18:44.283678] [information] Global locale: en_US
+3 [2022.01.18 19:18:44.283678] [information] Global encoding: windows-1252
+4 [2022.01.18 19:18:44.283678] [information] terminal encoding: IBM437
+18 [2022.01.18 19:18:45.012109] [information] [SERVICE:FLEXlm Client] license unavailable
+19 [2022.01.18 19:18:45.012109] [information] [SERVICE:FLEXlm Client] temporarily disabling request processing
+20 [2022.01.18 19:18:45.012109] [information] [SERVICE:FLEXlm Client] reset current license type to be invalid
+34 [2022.01.18 19:18:45.153101] [information] [SERVICE:FLEXlm Client] current license type: "UNKNOWN"
+35 [2022.01.18 19:18:45.153101] [information] [SERVICE:FLEXlm Client] current license number: "For EveryOne"
+39 [2022.01.18 19:18:45.153101] [information] [SERVICE:FLEXlm Client] license checked out successfully
+46 [2022.01.18 19:18:46.550237] [information] [SERVICE:auto-deploy] Added 'Functions' ('G:\Programming Live\Learning\Lectures\Level 4\Image Process\Image Process Project\prod_server_1\auto_deploy\Functions.ctf' -> 'G:\Programming Live\Learning\Lectures\Level 4\Image Process\Image Process Project\prod_server_1\.mps_deployed\Functions_2')
+53 [2022.01.18 19:18:46.550237] [information] [SERVICE:FLEXlm Client] connection to license server recovered
+54 [2022.01.18 19:18:46.550237] [information] [SERVICE:FLEXlm Client] enable request processing
+65 [2022.01.18 19:18:46.597509] [information] [SERVICE:http] [endpoint:[::]:9910] Listening for connections
+66 [2022.01.18 19:18:47.351292] [out] [worker:1] Worker ready - protocol v2
+70 [2022.01.18 19:18:47.351292] [information] [SERVICE:worker] Worker 1 started
+75 [2022.01.18 19:18:47.367629] [information] Master started
+93 [2022.01.18 19:29:39.361313] [err] [worker:1] Error using rgb2gray>parse_inputs (line 77)
+94 [2022.01.18 19:29:39.361313] [err] [worker:1] MAP must be a m x 3 array.
+95 [2022.01.18 19:29:39.361313] [err] [worker:1] 
+96 [2022.01.18 19:29:39.361313] [err] [worker:1] Error in rgb2gray (line 52)
+97 [2022.01.18 19:29:39.361313] [err] [worker:1] 
+98 [2022.01.18 19:29:39.361313] [err] [worker:1] 
+99 [2022.01.18 19:29:39.361313] [err] [worker:1] Error in Negative (line 3)
+100 [2022.01.18 19:29:39.361313] [err] [worker:1] 
+101 [2022.01.18 19:29:39.361313] [err] [worker:1] 
+104 [2022.01.18 19:29:48.413907] [err] [worker:1] Error using rgb2gray>parse_inputs (line 77)
+105 [2022.01.18 19:29:48.413907] [err] [worker:1] MAP must be a m x 3 array.
+106 [2022.01.18 19:29:48.413907] [err] [worker:1] 
+107 [2022.01.18 19:29:48.413907] [err] [worker:1] Error in rgb2gray (line 52)
+108 [2022.01.18 19:29:48.413907] [err] [worker:1] 
+109 [2022.01.18 19:29:48.413907] [err] [worker:1] 
+110 [2022.01.18 19:29:48.413907] [err] [worker:1] Error in Negative (line 3)
+111 [2022.01.18 19:29:48.413907] [err] [worker:1] 
+112 [2022.01.18 19:29:48.413907] [err] [worker:1] 
+117 [2022.01.18 19:30:28.594851] [err] [worker:1] Error using rgb2gray>parse_inputs (line 77)
+118 [2022.01.18 19:30:28.594851] [err] [worker:1] MAP must be a m x 3 array.
+119 [2022.01.18 19:30:28.594851] [err] [worker:1] 
+120 [2022.01.18 19:30:28.594851] [err] [worker:1] Error in rgb2gray (line 52)
+121 [2022.01.18 19:30:28.594851] [err] [worker:1] 
+122 [2022.01.18 19:30:28.594851] [err] [worker:1] 
+123 [2022.01.18 19:30:28.594851] [err] [worker:1] Error in Negative (line 3)
+124 [2022.01.18 19:30:28.594851] [err] [worker:1] 
+125 [2022.01.18 19:30:28.594851] [err] [worker:1] 
+128 [2022.01.18 19:30:47.615845] [err] [worker:1] Error using rgb2gray>parse_inputs (line 77)
+129 [2022.01.18 19:30:47.616797] [err] [worker:1] MAP must be a m x 3 array.
+130 [2022.01.18 19:30:47.616797] [err] [worker:1] 
+131 [2022.01.18 19:30:47.616797] [err] [worker:1] Error in rgb2gray (line 52)
+132 [2022.01.18 19:30:47.616797] [err] [worker:1] 
+133 [2022.01.18 19:30:47.616797] [err] [worker:1] 
+134 [2022.01.18 19:30:47.616797] [err] [worker:1] Error in Median (line 4)
+135 [2022.01.18 19:30:47.616797] [err] [worker:1] 
+136 [2022.01.18 19:30:47.616797] [err] [worker:1] 
+139 [2022.01.18 19:31:26.955273] [err] [worker:1] Index exceeds matrix dimensions.
+140 [2022.01.18 19:31:26.955273] [err] [worker:1] 
+141 [2022.01.18 19:31:26.955273] [err] [worker:1] Error in Brightness (line 10)
+142 [2022.01.18 19:31:26.955273] [err] [worker:1] 
+143 [2022.01.18 19:31:26.955273] [err] [worker:1] 
+148 [2022.01.18 19:32:09.343298] [err] [worker:1] Error using rgb2gray>parse_inputs (line 77)
+149 [2022.01.18 19:32:09.343298] [err] [worker:1] MAP must be a m x 3 array.
+150 [2022.01.18 19:32:09.343298] [err] [worker:1] 
+151 [2022.01.18 19:32:09.343298] [err] [worker:1] Error in rgb2gray (line 52)
+152 [2022.01.18 19:32:09.343298] [err] [worker:1] 
+153 [2022.01.18 19:32:09.343298] [err] [worker:1] 
+154 [2022.01.18 19:32:09.343298] [err] [worker:1] Error in Negative (line 3)
+155 [2022.01.18 19:32:09.343298] [err] [worker:1] 
+156 [2022.01.18 19:32:09.343298] [err] [worker:1] 
+159 [2022.01.18 19:33:12.427078] [err] [worker:1] Error using rgb2gray>parse_inputs (line 77)
+160 [2022.01.18 19:33:12.427078] [err] [worker:1] MAP must be a m x 3 array.
+161 [2022.01.18 19:33:12.427078] [err] [worker:1] 
+162 [2022.01.18 19:33:12.427078] [err] [worker:1] Error in rgb2gray (line 52)
+163 [2022.01.18 19:33:12.427078] [err] [worker:1] 
+164 [2022.01.18 19:33:12.427078] [err] [worker:1] 
+165 [2022.01.18 19:33:12.427078] [err] [worker:1] Error in Negative (line 3)
+166 [2022.01.18 19:33:12.427078] [err] [worker:1] 
+167 [2022.01.18 19:33:12.427078] [err] [worker:1] 
+172 [2022.01.18 19:35:30.338659] [err] [worker:1] Index exceeds matrix dimensions.
+173 [2022.01.18 19:35:30.339610] [err] [worker:1] 
+174 [2022.01.18 19:35:30.339610] [err] [worker:1] Error in Brightness (line 10)
+175 [2022.01.18 19:35:30.339610] [err] [worker:1] 
+176 [2022.01.18 19:35:30.339610] [err] [worker:1] 
+179 [2022.01.18 19:38:23.949110] [err] [worker:1] Index exceeds matrix dimensions.
+180 [2022.01.18 19:38:23.949110] [err] [worker:1] 
+181 [2022.01.18 19:38:23.949110] [err] [worker:1] Error in Brightness (line 10)
+182 [2022.01.18 19:38:23.949110] [err] [worker:1] 
+183 [2022.01.18 19:38:23.949110] [err] [worker:1] 
+199 [2022.01.18 20:26:23.967478] [information] [SERVICE:auto-deploy] Updated 'Functions' ('G:\Programming Live\Learning\Lectures\Level 4\Image Process\Image Process Project\prod_server_1\auto_deploy\Functions.ctf' -> 'G:\Programming Live\Learning\Lectures\Level 4\Image Process\Image Process Project\prod_server_1\.mps_deployed\Functions_3')
+233 [2022.01.18 20:29:59.797340] [err] [worker:1] Index exceeds matrix dimensions.
+234 [2022.01.18 20:29:59.797340] [err] [worker:1] 
+235 [2022.01.18 20:29:59.797340] [err] [worker:1] Error in addTwoImages (line 25)
+236 [2022.01.18 20:29:59.797340] [err] [worker:1] 
+237 [2022.01.18 20:29:59.797340] [err] [worker:1] 
+248 [2022.01.18 20:32:18.566956] [err] [worker:1] Index exceeds matrix dimensions.
+249 [2022.01.18 20:32:18.566956] [err] [worker:1] 
+250 [2022.01.18 20:32:18.566956] [err] [worker:1] Error in addTwoImages (line 13)
+251 [2022.01.18 20:32:18.566956] [err] [worker:1] 
+252 [2022.01.18 20:32:18.566956] [err] [worker:1] 
+255 [2022.01.18 20:33:10.850786] [err] [worker:1] Index exceeds matrix dimensions.
+256 [2022.01.18 20:33:10.850786] [err] [worker:1] 
+257 [2022.01.18 20:33:10.850786] [err] [worker:1] Error in addTwoImages (line 13)
+258 [2022.01.18 20:33:10.850786] [err] [worker:1] 
+259 [2022.01.18 20:33:10.850786] [err] [worker:1] 
+264 [2022.01.18 20:34:05.844724] [err] [worker:1] Index exceeds matrix dimensions.
+265 [2022.01.18 20:34:05.844724] [err] [worker:1] 
+266 [2022.01.18 20:34:05.845678] [err] [worker:1] Error in addTwoImages (line 13)
+267 [2022.01.18 20:34:05.845678] [err] [worker:1] 
+268 [2022.01.18 20:34:05.845678] [err] [worker:1] 
+279 [2022.01.18 20:52:42.125721] [information] [SERVICE:auto-deploy] Updated 'Functions' ('G:\Programming Live\Learning\Lectures\Level 4\Image Process\Image Process Project\prod_server_1\auto_deploy\Functions.ctf' -> 'G:\Programming Live\Learning\Lectures\Level 4\Image Process\Image Process Project\prod_server_1\.mps_deployed\Functions_4')
+325 [2022.01.18 21:26:25.983333] [information] [SERVICE:auto-deploy] Updated 'Functions' ('G:\Programming Live\Learning\Lectures\Level 4\Image Process\Image Process Project\prod_server_1\auto_deploy\Functions.ctf' -> 'G:\Programming Live\Learning\Lectures\Level 4\Image Process\Image Process Project\prod_server_1\.mps_deployed\Functions_5')

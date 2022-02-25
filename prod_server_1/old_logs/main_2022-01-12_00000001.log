@@ -1,0 +1,72 @@
+1 [2022.01.12 12:08:15.954409] [information] Starting master (pid = 13356)
+2 [2022.01.12 12:08:15.954409] [information] Global locale: en_US
+3 [2022.01.12 12:08:15.954409] [information] Global encoding: windows-1252
+4 [2022.01.12 12:08:15.954409] [information] terminal encoding: IBM437
+18 [2022.01.12 12:08:17.099203] [information] [SERVICE:FLEXlm Client] license unavailable
+19 [2022.01.12 12:08:17.099203] [information] [SERVICE:FLEXlm Client] temporarily disabling request processing
+20 [2022.01.12 12:08:17.099203] [information] [SERVICE:FLEXlm Client] reset current license type to be invalid
+34 [2022.01.12 12:08:17.177701] [information] [SERVICE:FLEXlm Client] current license type: "UNKNOWN"
+35 [2022.01.12 12:08:17.177701] [information] [SERVICE:FLEXlm Client] current license number: "For EveryOne"
+39 [2022.01.12 12:08:17.177701] [information] [SERVICE:FLEXlm Client] license checked out successfully
+46 [2022.01.12 12:08:18.856492] [information] [SERVICE:auto-deploy] Added 'Functions' ('G:\Programming Live\Achievements\Projects\Big Projects\Image Process\GUI\prod_server_1\auto_deploy\Functions.ctf' -> 'G:\Programming Live\Achievements\Projects\Big Projects\Image Process\GUI\prod_server_1\.mps_deployed\Functions_2')
+53 [2022.01.12 12:08:18.856492] [information] [SERVICE:FLEXlm Client] connection to license server recovered
+54 [2022.01.12 12:08:18.856492] [information] [SERVICE:FLEXlm Client] enable request processing
+62 [2022.01.12 12:08:18.856492] [information] [SERVICE:http] [endpoint:[::]:9910] Listening for connections
+66 [2022.01.12 12:08:19.813455] [out] [worker:1] Worker ready - protocol v2
+70 [2022.01.12 12:08:19.813455] [information] [SERVICE:worker] Worker 1 started
+75 [2022.01.12 12:08:19.813455] [information] Master started
+82 [2022.01.12 12:10:02.110415] [err] [worker:1] Error using readContentFromWebService (line 45)
+83 [2022.01.12 12:10:02.110415] [err] [worker:1] The server returned the message: "Not Found" for URL, 'http://127.0.0.1:8000/media/5.jpg' (with HTTP response code 404).
+84 [2022.01.12 12:10:02.110415] [err] [worker:1] 
+85 [2022.01.12 12:10:02.110415] [err] [worker:1] Error in webread (line 122)
+86 [2022.01.12 12:10:02.110415] [err] [worker:1] 
+87 [2022.01.12 12:10:02.110415] [err] [worker:1] 
+88 [2022.01.12 12:10:02.110415] [err] [worker:1] Error in Butterworth_HPF (line 4)
+89 [2022.01.12 12:10:02.110415] [err] [worker:1] 
+90 [2022.01.12 12:10:02.110415] [err] [worker:1] 
+104 [2022.01.12 12:19:02.718383] [err] [worker:1] Undefined function or variable 'output'.
+105 [2022.01.12 12:19:02.719059] [err] [worker:1] 
+106 [2022.01.12 12:19:02.719059] [err] [worker:1] Error in GaussianFilter (line 33)
+107 [2022.01.12 12:19:02.719059] [err] [worker:1] 
+108 [2022.01.12 12:19:02.719059] [err] [worker:1] 
+111 [2022.01.12 12:19:10.365954] [err] [worker:1] Undefined function or variable 'output'.
+112 [2022.01.12 12:19:10.365954] [err] [worker:1] 
+113 [2022.01.12 12:19:10.365954] [err] [worker:1] Error in GaussianFilter (line 33)
+114 [2022.01.12 12:19:10.365954] [err] [worker:1] 
+115 [2022.01.12 12:19:10.365954] [err] [worker:1] 
+118 [2022.01.12 12:19:57.255351] [err] [worker:1] Error using rgb2gray>parse_inputs (line 77)
+119 [2022.01.12 12:19:57.255351] [err] [worker:1] MAP must be a m x 3 array.
+120 [2022.01.12 12:19:57.255351] [err] [worker:1] 
+121 [2022.01.12 12:19:57.255351] [err] [worker:1] Error in rgb2gray (line 52)
+122 [2022.01.12 12:19:57.255351] [err] [worker:1] 
+123 [2022.01.12 12:19:57.255351] [err] [worker:1] 
+124 [2022.01.12 12:19:57.255351] [err] [worker:1] Error in GaussianFilter (line 4)
+125 [2022.01.12 12:19:57.255351] [err] [worker:1] 
+126 [2022.01.12 12:19:57.255351] [err] [worker:1] 
+129 [2022.01.12 12:25:51.141038] [information] [SERVICE:auto-deploy] Updated 'Functions' ('G:\Programming Live\Achievements\Projects\Big Projects\Image Process\GUI\prod_server_1\auto_deploy\Functions.ctf' -> 'G:\Programming Live\Achievements\Projects\Big Projects\Image Process\GUI\prod_server_1\.mps_deployed\Functions_3')
+140 [2022.01.12 12:28:06.620907] [err] [worker:1] Error using rgb2gray>parse_inputs (line 77)
+141 [2022.01.12 12:28:06.620907] [err] [worker:1] MAP must be a m x 3 array.
+142 [2022.01.12 12:28:06.620907] [err] [worker:1] 
+143 [2022.01.12 12:28:06.620907] [err] [worker:1] Error in rgb2gray (line 52)
+144 [2022.01.12 12:28:06.620907] [err] [worker:1] 
+145 [2022.01.12 12:28:06.620907] [err] [worker:1] 
+146 [2022.01.12 12:28:06.620907] [err] [worker:1] Error in GaussianFilter (line 4)
+147 [2022.01.12 12:28:06.620907] [err] [worker:1] 
+148 [2022.01.12 12:28:06.620907] [err] [worker:1] 
+189 [2022.01.12 12:41:40.692894] [err] [worker:1] Index exceeds matrix dimensions.
+190 [2022.01.12 12:41:40.692894] [err] [worker:1] 
+191 [2022.01.12 12:41:40.692894] [err] [worker:1] Error in Gray (line 4)
+192 [2022.01.12 12:41:40.692894] [err] [worker:1] 
+193 [2022.01.12 12:41:40.692894] [err] [worker:1] 
+226 [2022.01.12 13:26:03.000551] [information] [SERVICE:worker] Waiting for worker 1 to finish pending activity
+227 [2022.01.12 13:26:03.000551] [information] [SERVICE:worker] Starting graceful shutdown of worker 1
+228 [2022.01.12 13:26:03.000551] [information] [SERVICE:worker] Shutdown request was successfully sent to worker 1; waiting for process to exit...
+232 [2022.01.12 13:26:04.454405] [information] [SERVICE:worker] Worker 1 exited with code 0
+234 [2022.01.12 13:26:04.454405] [information] [SERVICE:worker] Worker 1 successfully stopped.
+244 [2022.01.12 13:26:04.470026] [information] [SERVICE:FLEXlm Client] customer shutdown
+248 [2022.01.12 13:26:04.470026] [information] [SERVICE:FLEXlm Client] license unavailable
+249 [2022.01.12 13:26:04.470026] [information] [SERVICE:FLEXlm Client] temporarily disabling request processing
+250 [2022.01.12 13:26:04.470026] [information] [SERVICE:FLEXlm Client] reset current license type to be invalid
+260 [2022.01.12 13:26:04.470026] [information] [SERVICE:FLEXlm Client] licensing shutdown successfully
+263 [2022.01.12 13:26:04.470026] [error] [SERVICE:FLEXlm Client] Stop License Manager
+266 [2022.01.12 13:26:04.470026] [information] Master stopped

@@ -1,0 +1,26 @@
+1 [2022.01.04 16:41:18.486192] [information] Starting master (pid = 10220)
+2 [2022.01.04 16:41:18.486192] [information] Global locale: en_US
+3 [2022.01.04 16:41:18.486192] [information] Global encoding: windows-1252
+4 [2022.01.04 16:41:18.486192] [information] terminal encoding: IBM437
+18 [2022.01.04 16:41:19.364671] [information] [SERVICE:FLEXlm Client] license unavailable
+19 [2022.01.04 16:41:19.364671] [information] [SERVICE:FLEXlm Client] temporarily disabling request processing
+20 [2022.01.04 16:41:19.364671] [information] [SERVICE:FLEXlm Client] reset current license type to be invalid
+34 [2022.01.04 16:41:19.584231] [information] [SERVICE:FLEXlm Client] current license type: "UNKNOWN"
+35 [2022.01.04 16:41:19.584231] [information] [SERVICE:FLEXlm Client] current license number: "For EveryOne"
+39 [2022.01.04 16:41:19.584231] [information] [SERVICE:FLEXlm Client] license checked out successfully
+46 [2022.01.04 16:41:21.009303] [information] [SERVICE:auto-deploy] Added 'addTwoImages' ('C:\Users\ahmed\OneDrive\Desktop\prod_server_1\auto_deploy\addTwoImages.ctf' -> 'C:\Users\ahmed\OneDrive\Desktop\prod_server_1\.mps_deployed\addTwoImages_2')
+49 [2022.01.04 16:41:21.291839] [information] [SERVICE:auto-deploy] Added 'addTwoNum' ('C:\Users\ahmed\OneDrive\Desktop\prod_server_1\auto_deploy\addTwoNum.ctf' -> 'C:\Users\ahmed\OneDrive\Desktop\prod_server_1\.mps_deployed\addTwoNum_3')
+52 [2022.01.04 16:41:21.566267] [information] [SERVICE:auto-deploy] Added 'functions' ('C:\Users\ahmed\OneDrive\Desktop\prod_server_1\auto_deploy\functions.ctf' -> 'C:\Users\ahmed\OneDrive\Desktop\prod_server_1\.mps_deployed\functions_4')
+59 [2022.01.04 16:41:21.566267] [information] [SERVICE:FLEXlm Client] connection to license server recovered
+60 [2022.01.04 16:41:21.574277] [information] [SERVICE:FLEXlm Client] enable request processing
+71 [2022.01.04 16:41:21.605532] [information] [SERVICE:http] [endpoint:[::]:9910] Listening for connections
+72 [2022.01.04 16:41:22.734396] [out] [worker:1] Worker ready - protocol v2
+76 [2022.01.04 16:41:22.734396] [information] [SERVICE:worker] Worker 1 started
+81 [2022.01.04 16:41:22.734396] [information] Master started
+119 [2022.01.04 18:20:16.927445] [information] [SERVICE:auto-deploy] Added 'Function' ('C:\Users\ahmed\OneDrive\Desktop\prod_server_1\auto_deploy\Function.ctf' -> 'C:\Users\ahmed\OneDrive\Desktop\prod_server_1\.mps_deployed\Function_5')
+151 [2022.01.04 19:36:48.800789] [error] [connection_id:2] [service:http-connection] do not continue
+153 [2022.01.04 19:38:10.300089] [error] [connection_id:2] [service:http-connection] do not continue
+160 [2022.01.04 19:44:51.405972] [error] [connection_id:3] [service:http-connection] do not continue
+167 [2022.01.04 19:53:57.868620] [error] [connection_id:4] [service:http-connection] do not continue
+169 [2022.01.04 19:56:37.139173] [error] [connection_id:4] [service:http-connection] do not continue
+171 [2022.01.04 19:59:22.156781] [error] [connection_id:4] [service:http-connection] do not continue

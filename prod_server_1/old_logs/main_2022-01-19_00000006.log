@@ -1,0 +1,75 @@
+1 [2022.01.19 18:33:54.619490] [information] Starting master (pid = 11436)
+2 [2022.01.19 18:33:54.620487] [information] Global locale: en_US
+3 [2022.01.19 18:33:54.620487] [information] Global encoding: windows-1252
+4 [2022.01.19 18:33:54.620487] [information] terminal encoding: IBM437
+18 [2022.01.19 18:33:54.914469] [information] [SERVICE:FLEXlm Client] license unavailable
+19 [2022.01.19 18:33:54.914469] [information] [SERVICE:FLEXlm Client] temporarily disabling request processing
+20 [2022.01.19 18:33:54.914469] [information] [SERVICE:FLEXlm Client] reset current license type to be invalid
+34 [2022.01.19 18:33:55.064255] [information] [SERVICE:FLEXlm Client] current license type: "UNKNOWN"
+35 [2022.01.19 18:33:55.064255] [information] [SERVICE:FLEXlm Client] current license number: "For EveryOne"
+39 [2022.01.19 18:33:55.064255] [information] [SERVICE:FLEXlm Client] license checked out successfully
+46 [2022.01.19 18:33:55.735118] [information] [SERVICE:auto-deploy] Added 'Functions' ('G:\Programming Live\Learning\Lectures\Level 4\Image Process\Image Process Project\prod_server_1\auto_deploy\Functions.ctf' -> 'G:\Programming Live\Learning\Lectures\Level 4\Image Process\Image Process Project\prod_server_1\.mps_deployed\Functions_2')
+53 [2022.01.19 18:33:55.736111] [information] [SERVICE:FLEXlm Client] connection to license server recovered
+54 [2022.01.19 18:33:55.736111] [information] [SERVICE:FLEXlm Client] enable request processing
+65 [2022.01.19 18:33:55.750075] [information] [SERVICE:http] [endpoint:[::]:9910] Listening for connections
+66 [2022.01.19 18:33:55.865763] [out] [worker:1] Worker ready - protocol v2
+70 [2022.01.19 18:33:55.866760] [information] [SERVICE:worker] Worker 1 started
+75 [2022.01.19 18:33:55.866760] [information] Master started
+80 [2022.01.19 18:34:17.950543] [err] [worker:1] Error using zeros
+81 [2022.01.19 18:34:17.950543] [err] [worker:1] Requested 205200x820800x3 (3764.7GB) array exceeds maximum array size preference. Creation of arrays greater than this limit may take a long time and cause MATLAB to become unresponsive. See <a href="matlab: helpview([docroot '/matlab/helptargets.map'], 'matlab_env_workspace_prefs')">array size limit</a> or preference panel for more information.
+82 [2022.01.19 18:34:17.950543] [err] [worker:1] 
+83 [2022.01.19 18:34:17.950543] [err] [worker:1] Error in Dir_Ord_Resize (line 11)
+84 [2022.01.19 18:34:17.950543] [err] [worker:1] 
+85 [2022.01.19 18:34:17.950543] [err] [worker:1] 
+91 [2022.01.19 18:45:18.138243] [err] [worker:1] Error using zeros
+92 [2022.01.19 18:45:18.138243] [err] [worker:1] Requested 205200x820800x3 (3764.7GB) array exceeds maximum array size preference. Creation of arrays greater than this limit may take a long time and cause MATLAB to become unresponsive. See <a href="matlab: helpview([docroot '/matlab/helptargets.map'], 'matlab_env_workspace_prefs')">array size limit</a> or preference panel for more information.
+93 [2022.01.19 18:45:18.138243] [err] [worker:1] 
+94 [2022.01.19 18:45:18.138243] [err] [worker:1] Error in Dir_Ord_Resize (line 11)
+95 [2022.01.19 18:45:18.138243] [err] [worker:1] 
+96 [2022.01.19 18:45:18.138243] [err] [worker:1] 
+99 [2022.01.19 18:46:49.297055] [err] [worker:1] Error using readContentFromWebService (line 45)
+100 [2022.01.19 18:46:49.297055] [err] [worker:1] The server returned the message: "Not Found" for URL, 'http://127.0.0.1:8000/media/toysnoflash.png' (with HTTP response code 404).
+101 [2022.01.19 18:46:49.297055] [err] [worker:1] 
+102 [2022.01.19 18:46:49.297055] [err] [worker:1] Error in webread (line 122)
+103 [2022.01.19 18:46:49.297055] [err] [worker:1] 
+104 [2022.01.19 18:46:49.297055] [err] [worker:1] 
+105 [2022.01.19 18:46:49.297055] [err] [worker:1] Error in Dir_Ord_Resize (line 4)
+106 [2022.01.19 18:46:49.297055] [err] [worker:1] 
+107 [2022.01.19 18:46:49.297055] [err] [worker:1] 
+112 [2022.01.19 18:48:17.173442] [err] [worker:1] Error using zeros
+113 [2022.01.19 18:48:17.173442] [err] [worker:1] Requested 61500x69600x3 (95.7GB) array exceeds maximum array size preference. Creation of arrays greater than this limit may take a long time and cause MATLAB to become unresponsive. See <a href="matlab: helpview([docroot '/matlab/helptargets.map'], 'matlab_env_workspace_prefs')">array size limit</a> or preference panel for more information.
+114 [2022.01.19 18:48:17.173442] [err] [worker:1] 
+115 [2022.01.19 18:48:17.173442] [err] [worker:1] Error in Dir_Ord_Resize (line 11)
+116 [2022.01.19 18:48:17.173442] [err] [worker:1] 
+117 [2022.01.19 18:48:17.173442] [err] [worker:1] 
+126 [2022.01.19 18:51:56.792906] [err] [worker:1] Error using webread (line 119)
+127 [2022.01.19 18:51:56.806868] [err] [worker:1] The connection to URL 'http://127.0.0.1:8000/media/westconcordorthophoto.png' timed out after 5 seconds. Set options.Timeout to a higher value.
+128 [2022.01.19 18:51:56.806868] [err] [worker:1] 
+129 [2022.01.19 18:51:56.806868] [err] [worker:1] Error in Dir_Ord_Resize (line 4)
+130 [2022.01.19 18:51:56.806868] [err] [worker:1] 
+131 [2022.01.19 18:51:56.806868] [err] [worker:1] 
+132 [2022.01.19 18:52:01.902536] [err] [worker:1] Error using webread (line 119)
+133 [2022.01.19 18:52:01.902536] [err] [worker:1] The connection to URL 'http://127.0.0.1:8000/media/kids.png' timed out after 5 seconds. Set options.Timeout to a higher value.
+134 [2022.01.19 18:52:01.902536] [err] [worker:1] 
+135 [2022.01.19 18:52:01.902536] [err] [worker:1] Error in Dir_Ord_Resize (line 4)
+136 [2022.01.19 18:52:01.902536] [err] [worker:1] 
+137 [2022.01.19 18:52:01.902536] [err] [worker:1] 
+138 [2022.01.19 18:52:06.936221] [err] [worker:1] Error using webread (line 119)
+139 [2022.01.19 18:52:06.936221] [err] [worker:1] The connection to URL 'http://127.0.0.1:8000/media/kids.png' timed out after 5 seconds. Set options.Timeout to a higher value.
+140 [2022.01.19 18:52:06.936221] [err] [worker:1] 
+141 [2022.01.19 18:52:06.936221] [err] [worker:1] Error in Brightness (line 4)
+142 [2022.01.19 18:52:06.936221] [err] [worker:1] 
+143 [2022.01.19 18:52:06.936221] [err] [worker:1] 
+200 [2022.01.19 20:32:28.581051] [information] [SERVICE:auto-deploy] Updated 'Functions' ('G:\Programming Live\Learning\Lectures\Level 4\Image Process\Image Process Project\prod_server_1\auto_deploy\Functions.ctf' -> 'G:\Programming Live\Learning\Lectures\Level 4\Image Process\Image Process Project\prod_server_1\.mps_deployed\Functions_3')
+242 [2022.01.19 20:35:50.505727] [information] [SERVICE:worker] Waiting for worker 1 to finish pending activity
+243 [2022.01.19 20:35:50.509433] [information] [SERVICE:worker] Starting graceful shutdown of worker 1
+244 [2022.01.19 20:35:50.509949] [information] [SERVICE:worker] Shutdown request was successfully sent to worker 1; waiting for process to exit...
+248 [2022.01.19 20:35:52.290433] [information] [SERVICE:worker] Worker 1 exited with code 0
+250 [2022.01.19 20:35:52.291440] [information] [SERVICE:worker] Worker 1 successfully stopped.
+260 [2022.01.19 20:35:52.294451] [information] [SERVICE:FLEXlm Client] customer shutdown
+264 [2022.01.19 20:35:52.295414] [information] [SERVICE:FLEXlm Client] license unavailable
+265 [2022.01.19 20:35:52.295414] [information] [SERVICE:FLEXlm Client] temporarily disabling request processing
+266 [2022.01.19 20:35:52.295414] [information] [SERVICE:FLEXlm Client] reset current license type to be invalid
+276 [2022.01.19 20:35:52.310374] [information] [SERVICE:FLEXlm Client] licensing shutdown successfully
+279 [2022.01.19 20:35:52.310374] [error] [SERVICE:FLEXlm Client] Stop License Manager
+282 [2022.01.19 20:35:52.311414] [information] Master stopped

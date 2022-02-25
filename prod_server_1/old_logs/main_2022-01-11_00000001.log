@@ -1,0 +1,523 @@
+1 [2022.01.11 11:45:40.953071] [information] Starting master (pid = 16232)
+2 [2022.01.11 11:45:40.962586] [information] Global locale: en_US
+3 [2022.01.11 11:45:40.962586] [information] Global encoding: windows-1252
+4 [2022.01.11 11:45:40.962586] [information] terminal encoding: IBM437
+18 [2022.01.11 11:45:41.856826] [information] [SERVICE:FLEXlm Client] license unavailable
+19 [2022.01.11 11:45:41.856826] [information] [SERVICE:FLEXlm Client] temporarily disabling request processing
+20 [2022.01.11 11:45:41.856826] [information] [SERVICE:FLEXlm Client] reset current license type to be invalid
+34 [2022.01.11 11:45:42.013473] [information] [SERVICE:FLEXlm Client] current license type: "UNKNOWN"
+35 [2022.01.11 11:45:42.013473] [information] [SERVICE:FLEXlm Client] current license number: "For EveryOne"
+39 [2022.01.11 11:45:42.013473] [information] [SERVICE:FLEXlm Client] license checked out successfully
+46 [2022.01.11 11:45:44.258955] [information] [SERVICE:auto-deploy] Added 'Functions' ('G:\Programming Live\Achievements\Projects\Big Projects\Image Process\GUI\prod_server_1\auto_deploy\Functions.ctf' -> 'G:\Programming Live\Achievements\Projects\Big Projects\Image Process\GUI\prod_server_1\.mps_deployed\Functions_2')
+53 [2022.01.11 11:45:44.258955] [information] [SERVICE:FLEXlm Client] connection to license server recovered
+54 [2022.01.11 11:45:44.258955] [information] [SERVICE:FLEXlm Client] enable request processing
+65 [2022.01.11 11:45:44.361096] [information] [SERVICE:http] [endpoint:[::]:9910] Listening for connections
+66 [2022.01.11 11:45:45.761886] [out] [worker:1] Worker ready - protocol v2
+70 [2022.01.11 11:45:45.761886] [information] [SERVICE:worker] Worker 1 started
+75 [2022.01.11 11:45:45.761886] [information] Master started
+86 [2022.01.11 11:49:14.255174] [err] [worker:1] Error using Gray
+87 [2022.01.11 11:49:14.255174] [err] [worker:1] Too many input arguments.
+88 [2022.01.11 11:49:14.255174] [err] [worker:1] 
+91 [2022.01.11 11:49:31.096734] [err] [worker:1] Error using Gray
+92 [2022.01.11 11:49:31.096734] [err] [worker:1] Too many input arguments.
+93 [2022.01.11 11:49:31.096734] [err] [worker:1] 
+96 [2022.01.11 11:50:11.332778] [err] [worker:1] Error using Gray
+97 [2022.01.11 11:50:11.341288] [err] [worker:1] Too many input arguments.
+98 [2022.01.11 11:50:11.341288] [err] [worker:1] 
+101 [2022.01.11 11:50:30.357811] [err] [worker:1] Error using Gray
+102 [2022.01.11 11:50:30.357811] [err] [worker:1] Too many input arguments.
+103 [2022.01.11 11:50:30.357811] [err] [worker:1] 
+106 [2022.01.11 11:50:43.379206] [err] [worker:1] Error using Gray
+107 [2022.01.11 11:50:43.379206] [err] [worker:1] Too many input arguments.
+108 [2022.01.11 11:50:43.379206] [err] [worker:1] 
+115 [2022.01.11 11:54:47.677852] [err] [worker:1] Not enough input arguments.
+116 [2022.01.11 11:54:47.677852] [err] [worker:1] 
+117 [2022.01.11 11:54:47.677852] [err] [worker:1] Error in Brightness (line 10)
+118 [2022.01.11 11:54:47.677852] [err] [worker:1] 
+119 [2022.01.11 11:54:47.677852] [err] [worker:1] 
+130 [2022.01.11 12:10:19.230295] [err] [worker:1] Error using readContentFromWebService (line 45)
+131 [2022.01.11 12:10:19.230295] [err] [worker:1] The server returned the message: "Not Found" for URL, 'http://127.0.0.1:8000/media/4' (with HTTP response code 404).
+132 [2022.01.11 12:10:19.230295] [err] [worker:1] 
+133 [2022.01.11 12:10:19.230295] [err] [worker:1] Error in webread (line 122)
+134 [2022.01.11 12:10:19.230295] [err] [worker:1] 
+135 [2022.01.11 12:10:19.230295] [err] [worker:1] 
+136 [2022.01.11 12:10:19.230295] [err] [worker:1] Error in addTwoImages (line 5)
+137 [2022.01.11 12:10:19.230295] [err] [worker:1] 
+138 [2022.01.11 12:10:19.230295] [err] [worker:1] 
+143 [2022.01.11 12:25:42.058112] [information] [SERVICE:FLEXlm Client] heartbeat recovered
+153 [2022.01.11 12:52:26.510073] [information] [SERVICE:FLEXlm Client] heartbeat recovered
+186 [2022.01.11 13:31:25.653087] [err] [worker:1] Error using readContentFromWebService (line 45)
+187 [2022.01.11 13:31:25.653087] [err] [worker:1] The server returned the message: "Not Found" for URL, 'http://127.0.0.1:8000/media/4' (with HTTP response code 404).
+188 [2022.01.11 13:31:25.653087] [err] [worker:1] 
+189 [2022.01.11 13:31:25.653087] [err] [worker:1] Error in webread (line 122)
+190 [2022.01.11 13:31:25.653087] [err] [worker:1] 
+191 [2022.01.11 13:31:25.653087] [err] [worker:1] 
+192 [2022.01.11 13:31:25.653087] [err] [worker:1] Error in addTwoImages (line 5)
+193 [2022.01.11 13:31:25.653087] [err] [worker:1] 
+194 [2022.01.11 13:31:25.653087] [err] [worker:1] 
+200 [2022.01.11 13:33:06.141806] [err] [worker:1] Error using readContentFromWebService (line 45)
+201 [2022.01.11 13:33:06.141806] [err] [worker:1] The server returned the message: "Not Found" for URL, 'http://127.0.0.1:8000/media/4' (with HTTP response code 404).
+202 [2022.01.11 13:33:06.141806] [err] [worker:1] 
+203 [2022.01.11 13:33:06.141806] [err] [worker:1] Error in webread (line 122)
+204 [2022.01.11 13:33:06.141806] [err] [worker:1] 
+205 [2022.01.11 13:33:06.141806] [err] [worker:1] 
+206 [2022.01.11 13:33:06.141806] [err] [worker:1] Error in addTwoImages (line 5)
+207 [2022.01.11 13:33:06.141806] [err] [worker:1] 
+208 [2022.01.11 13:33:06.141806] [err] [worker:1] 
+211 [2022.01.11 13:33:15.838867] [err] [worker:1] Error using readContentFromWebService (line 45)
+212 [2022.01.11 13:33:15.838867] [err] [worker:1] The server returned the message: "Not Found" for URL, 'http://127.0.0.1:8000/media/4' (with HTTP response code 404).
+213 [2022.01.11 13:33:15.838867] [err] [worker:1] 
+214 [2022.01.11 13:33:15.838867] [err] [worker:1] Error in webread (line 122)
+215 [2022.01.11 13:33:15.838867] [err] [worker:1] 
+216 [2022.01.11 13:33:15.838867] [err] [worker:1] 
+217 [2022.01.11 13:33:15.838867] [err] [worker:1] Error in addTwoImages (line 5)
+218 [2022.01.11 13:33:15.838867] [err] [worker:1] 
+219 [2022.01.11 13:33:15.838867] [err] [worker:1] 
+225 [2022.01.11 13:43:20.635718] [err] [worker:1] Error using readContentFromWebService (line 45)
+226 [2022.01.11 13:43:20.635718] [err] [worker:1] The server returned the message: "Not Found" for URL, 'http://127.0.0.1:8000/media/4' (with HTTP response code 404).
+227 [2022.01.11 13:43:20.635718] [err] [worker:1] 
+228 [2022.01.11 13:43:20.635718] [err] [worker:1] Error in webread (line 122)
+229 [2022.01.11 13:43:20.635718] [err] [worker:1] 
+230 [2022.01.11 13:43:20.635718] [err] [worker:1] 
+231 [2022.01.11 13:43:20.635718] [err] [worker:1] Error in addTwoImages (line 5)
+232 [2022.01.11 13:43:20.635718] [err] [worker:1] 
+233 [2022.01.11 13:43:20.635718] [err] [worker:1] 
+236 [2022.01.11 13:47:36.750399] [err] [worker:1] Error using readContentFromWebService (line 45)
+237 [2022.01.11 13:47:36.750399] [err] [worker:1] The server returned the message: "Not Found" for URL, 'http://127.0.0.1:8000/media/4' (with HTTP response code 404).
+238 [2022.01.11 13:47:36.750399] [err] [worker:1] 
+239 [2022.01.11 13:47:36.750399] [err] [worker:1] Error in webread (line 122)
+240 [2022.01.11 13:47:36.750399] [err] [worker:1] 
+241 [2022.01.11 13:47:36.750399] [err] [worker:1] 
+242 [2022.01.11 13:47:36.751393] [err] [worker:1] Error in addTwoImages (line 5)
+243 [2022.01.11 13:47:36.751393] [err] [worker:1] 
+244 [2022.01.11 13:47:36.751393] [err] [worker:1] 
+266 [2022.01.11 13:59:38.385682] [err] [worker:1] Index exceeds matrix dimensions.
+267 [2022.01.11 13:59:38.385682] [err] [worker:1] 
+268 [2022.01.11 13:59:38.385682] [err] [worker:1] Error in addTwoImages (line 11)
+269 [2022.01.11 13:59:38.385682] [err] [worker:1] 
+270 [2022.01.11 13:59:38.385682] [err] [worker:1] 
+273 [2022.01.11 14:01:03.412330] [err] [worker:1] Index exceeds matrix dimensions.
+274 [2022.01.11 14:01:03.412330] [err] [worker:1] 
+275 [2022.01.11 14:01:03.412330] [err] [worker:1] Error in addTwoImages (line 11)
+276 [2022.01.11 14:01:03.412330] [err] [worker:1] 
+277 [2022.01.11 14:01:03.412330] [err] [worker:1] 
+305 [2022.01.11 14:49:07.218921] [err] [worker:1] Error using readContentFromWebService (line 45)
+306 [2022.01.11 14:49:07.218921] [err] [worker:1] The server returned the message: "Not Found" for URL, 'http://127.0.0.1:8000/media/4.jpg' (with HTTP response code 404).
+307 [2022.01.11 14:49:07.218921] [err] [worker:1] 
+308 [2022.01.11 14:49:07.218921] [err] [worker:1] Error in webread (line 122)
+309 [2022.01.11 14:49:07.218921] [err] [worker:1] 
+310 [2022.01.11 14:49:07.219919] [err] [worker:1] 
+311 [2022.01.11 14:49:07.219919] [err] [worker:1] Error in Brightness (line 4)
+312 [2022.01.11 14:49:07.219919] [err] [worker:1] 
+313 [2022.01.11 14:49:07.219919] [err] [worker:1] 
+345 [2022.01.11 15:01:08.230079] [err] [worker:1] Index exceeds matrix dimensions.
+346 [2022.01.11 15:01:08.230079] [err] [worker:1] 
+347 [2022.01.11 15:01:08.230079] [err] [worker:1] Error in addTwoImages (line 11)
+348 [2022.01.11 15:01:08.230079] [err] [worker:1] 
+349 [2022.01.11 15:01:08.230079] [err] [worker:1] 
+352 [2022.01.11 15:01:29.497671] [err] [worker:1] Index exceeds matrix dimensions.
+353 [2022.01.11 15:01:29.497671] [err] [worker:1] 
+354 [2022.01.11 15:01:29.497671] [err] [worker:1] Error in addTwoImages (line 11)
+355 [2022.01.11 15:01:29.497671] [err] [worker:1] 
+356 [2022.01.11 15:01:29.497671] [err] [worker:1] 
+359 [2022.01.11 15:01:35.215651] [err] [worker:1] Index exceeds matrix dimensions.
+360 [2022.01.11 15:01:35.215651] [err] [worker:1] 
+361 [2022.01.11 15:01:35.215651] [err] [worker:1] Error in addTwoImages (line 11)
+362 [2022.01.11 15:01:35.215651] [err] [worker:1] 
+363 [2022.01.11 15:01:35.215651] [err] [worker:1] 
+399 [2022.01.11 16:03:39.929778] [err] [worker:1] Index exceeds matrix dimensions.
+400 [2022.01.11 16:03:39.929778] [err] [worker:1] 
+401 [2022.01.11 16:03:39.929778] [err] [worker:1] Error in Gray (line 4)
+402 [2022.01.11 16:03:39.929778] [err] [worker:1] 
+403 [2022.01.11 16:03:39.929778] [err] [worker:1] 
+406 [2022.01.11 16:03:52.029287] [err] [worker:1] Error using vertcat
+407 [2022.01.11 16:03:52.029287] [err] [worker:1] Dimensions of matrices being concatenated are not consistent.
+408 [2022.01.11 16:03:52.029287] [err] [worker:1] 
+409 [2022.01.11 16:03:52.029287] [err] [worker:1] Error in MaxFilter (line 8)
+410 [2022.01.11 16:03:52.029287] [err] [worker:1] 
+411 [2022.01.11 16:03:52.029287] [err] [worker:1] 
+414 [2022.01.11 16:04:53.513836] [err] [worker:1] Undefined function or variable 'input_image'.
+415 [2022.01.11 16:04:53.513836] [err] [worker:1] 
+416 [2022.01.11 16:04:53.513836] [err] [worker:1] Error in Butterworth_HPF (line 6)
+417 [2022.01.11 16:04:53.513836] [err] [worker:1] 
+418 [2022.01.11 16:04:53.513836] [err] [worker:1] 
+423 [2022.01.11 16:05:58.453394] [err] [worker:1] Undefined function or variable 'input_image'.
+424 [2022.01.11 16:05:58.453394] [err] [worker:1] 
+425 [2022.01.11 16:05:58.453394] [err] [worker:1] Error in Butterworth_HPF (line 6)
+426 [2022.01.11 16:05:58.453394] [err] [worker:1] 
+427 [2022.01.11 16:05:58.453394] [err] [worker:1] 
+430 [2022.01.11 16:07:05.380627] [err] [worker:1] Undefined function or variable 'input_image'.
+431 [2022.01.11 16:07:05.380627] [err] [worker:1] 
+432 [2022.01.11 16:07:05.380627] [err] [worker:1] Error in Butterworth_HPF (line 6)
+433 [2022.01.11 16:07:05.380627] [err] [worker:1] 
+434 [2022.01.11 16:07:05.380627] [err] [worker:1] 
+437 [2022.01.11 16:07:26.504480] [err] [worker:1] Error using readContentFromWebService (line 45)
+438 [2022.01.11 16:07:26.504480] [err] [worker:1] The server returned the message: "Not Found" for URL, 'http://127.0.0.1:8000/media/4.jpg' (with HTTP response code 404).
+439 [2022.01.11 16:07:26.504480] [err] [worker:1] 
+440 [2022.01.11 16:07:26.504480] [err] [worker:1] Error in webread (line 122)
+441 [2022.01.11 16:07:26.504480] [err] [worker:1] 
+442 [2022.01.11 16:07:26.504480] [err] [worker:1] 
+443 [2022.01.11 16:07:26.504480] [err] [worker:1] Error in Contrast (line 2)
+444 [2022.01.11 16:07:26.504480] [err] [worker:1] 
+445 [2022.01.11 16:07:26.504480] [err] [worker:1] 
+448 [2022.01.11 16:07:53.469776] [err] [worker:1] Error using readContentFromWebService (line 45)
+449 [2022.01.11 16:07:53.469776] [err] [worker:1] The server returned the message: "Not Found" for URL, 'http://127.0.0.1:8000/media/4.jpg' (with HTTP response code 404).
+450 [2022.01.11 16:07:53.469776] [err] [worker:1] 
+451 [2022.01.11 16:07:53.469776] [err] [worker:1] Error in webread (line 122)
+452 [2022.01.11 16:07:53.469776] [err] [worker:1] 
+453 [2022.01.11 16:07:53.469776] [err] [worker:1] 
+454 [2022.01.11 16:07:53.469776] [err] [worker:1] Error in Contrast (line 2)
+455 [2022.01.11 16:07:53.469776] [err] [worker:1] 
+456 [2022.01.11 16:07:53.469776] [err] [worker:1] 
+459 [2022.01.11 16:08:06.970970] [err] [worker:1] Error using readContentFromWebService (line 45)
+460 [2022.01.11 16:08:06.970970] [err] [worker:1] The server returned the message: "Not Found" for URL, 'http://127.0.0.1:8000/media/4.jpg' (with HTTP response code 404).
+461 [2022.01.11 16:08:06.970970] [err] [worker:1] 
+462 [2022.01.11 16:08:06.970970] [err] [worker:1] Error in webread (line 122)
+463 [2022.01.11 16:08:06.970970] [err] [worker:1] 
+464 [2022.01.11 16:08:06.970970] [err] [worker:1] 
+465 [2022.01.11 16:08:06.970970] [err] [worker:1] Error in edge_detection (line 4)
+466 [2022.01.11 16:08:06.970970] [err] [worker:1] 
+467 [2022.01.11 16:08:06.970970] [err] [worker:1] 
+470 [2022.01.11 16:08:30.328967] [err] [worker:1] Error using imread
+471 [2022.01.11 16:08:30.328967] [err] [worker:1] The file name or URL argument must be a string.
+472 [2022.01.11 16:08:30.328967] [err] [worker:1] 
+473 [2022.01.11 16:08:30.328967] [err] [worker:1] Error in imread
+474 [2022.01.11 16:08:30.328967] [err] [worker:1] 
+475 [2022.01.11 16:08:30.328967] [err] [worker:1] 
+476 [2022.01.11 16:08:30.328967] [err] [worker:1] Error in edge_detection (line 5)
+477 [2022.01.11 16:08:30.328967] [err] [worker:1] 
+478 [2022.01.11 16:08:30.328967] [err] [worker:1] 
+481 [2022.01.11 16:09:31.747890] [err] [worker:1] Error using webread (line 116)
+482 [2022.01.11 16:09:31.747890] [err] [worker:1] Expected URL to be one of these types:
+483 [2022.01.11 16:09:31.747890] [err] [worker:1] 
+484 [2022.01.11 16:09:31.747890] [err] [worker:1] char
+485 [2022.01.11 16:09:31.747890] [err] [worker:1] 
+486 [2022.01.11 16:09:31.747890] [err] [worker:1] Instead its type was uint8.
+487 [2022.01.11 16:09:31.747890] [err] [worker:1] 
+488 [2022.01.11 16:09:31.747890] [err] [worker:1] Error in Gray (line 2)
+489 [2022.01.11 16:09:31.747890] [err] [worker:1] 
+490 [2022.01.11 16:09:31.747890] [err] [worker:1] 
+491 [2022.01.11 16:09:31.747890] [err] [worker:1] Error in Gamma (line 3)
+492 [2022.01.11 16:09:31.747890] [err] [worker:1] 
+493 [2022.01.11 16:09:31.747890] [err] [worker:1] 
+496 [2022.01.11 16:10:57.137344] [err] [worker:1] Error using webread (line 116)
+497 [2022.01.11 16:10:57.137344] [err] [worker:1] Expected URL to be one of these types:
+498 [2022.01.11 16:10:57.137344] [err] [worker:1] 
+499 [2022.01.11 16:10:57.137344] [err] [worker:1] char
+500 [2022.01.11 16:10:57.137344] [err] [worker:1] 
+501 [2022.01.11 16:10:57.137344] [err] [worker:1] Instead its type was uint8.
+502 [2022.01.11 16:10:57.137344] [err] [worker:1] 
+503 [2022.01.11 16:10:57.137344] [err] [worker:1] Error in Gray (line 2)
+504 [2022.01.11 16:10:57.137344] [err] [worker:1] 
+505 [2022.01.11 16:10:57.137344] [err] [worker:1] 
+506 [2022.01.11 16:10:57.137344] [err] [worker:1] Error in GaussianFilter (line 4)
+507 [2022.01.11 16:10:57.137344] [err] [worker:1] 
+508 [2022.01.11 16:10:57.137344] [err] [worker:1] 
+511 [2022.01.11 16:11:22.736190] [err] [worker:1] Error using webread (line 116)
+512 [2022.01.11 16:11:22.736190] [err] [worker:1] Expected URL to be one of these types:
+513 [2022.01.11 16:11:22.736190] [err] [worker:1] 
+514 [2022.01.11 16:11:22.736190] [err] [worker:1] char
+515 [2022.01.11 16:11:22.736190] [err] [worker:1] 
+516 [2022.01.11 16:11:22.736190] [err] [worker:1] Instead its type was uint8.
+517 [2022.01.11 16:11:22.736190] [err] [worker:1] 
+518 [2022.01.11 16:11:22.736190] [err] [worker:1] Error in Gray (line 2)
+519 [2022.01.11 16:11:22.737161] [err] [worker:1] 
+520 [2022.01.11 16:11:22.737161] [err] [worker:1] 
+521 [2022.01.11 16:11:22.737161] [err] [worker:1] Error in Gaussian_HPF (line 7)
+522 [2022.01.11 16:11:22.737161] [err] [worker:1] 
+523 [2022.01.11 16:11:22.737161] [err] [worker:1] 
+533 [2022.01.11 16:13:00.537405] [err] [worker:1] Error using webread (line 116)
+534 [2022.01.11 16:13:00.537405] [err] [worker:1] Expected URL to be one of these types:
+535 [2022.01.11 16:13:00.537405] [err] [worker:1] 
+536 [2022.01.11 16:13:00.537405] [err] [worker:1] char
+537 [2022.01.11 16:13:00.537405] [err] [worker:1] 
+538 [2022.01.11 16:13:00.537405] [err] [worker:1] Instead its type was uint8.
+539 [2022.01.11 16:13:00.537405] [err] [worker:1] 
+540 [2022.01.11 16:13:00.537405] [err] [worker:1] Error in Gray (line 2)
+541 [2022.01.11 16:13:00.537405] [err] [worker:1] 
+542 [2022.01.11 16:13:00.537405] [err] [worker:1] 
+543 [2022.01.11 16:13:00.537405] [err] [worker:1] Error in Ideal_LPF (line 8)
+544 [2022.01.11 16:13:00.537405] [err] [worker:1] 
+545 [2022.01.11 16:13:00.537405] [err] [worker:1] 
+548 [2022.01.11 16:16:08.664172] [err] [worker:1] Undefined function or variable 'input_image'.
+549 [2022.01.11 16:16:08.664172] [err] [worker:1] 
+550 [2022.01.11 16:16:08.664172] [err] [worker:1] Error in Butterworth_HPF (line 6)
+551 [2022.01.11 16:16:08.664172] [err] [worker:1] 
+552 [2022.01.11 16:16:08.664172] [err] [worker:1] 
+555 [2022.01.11 16:16:32.096609] [err] [worker:1] Undefined function or variable 'input_image'.
+556 [2022.01.11 16:16:32.096609] [err] [worker:1] 
+557 [2022.01.11 16:16:32.096609] [err] [worker:1] Error in Butterworth_HPF (line 6)
+558 [2022.01.11 16:16:32.096609] [err] [worker:1] 
+559 [2022.01.11 16:16:32.096609] [err] [worker:1] 
+562 [2022.01.11 16:16:50.831669] [err] [worker:1] Error using Contrast
+563 [2022.01.11 16:16:50.831669] [err] [worker:1] Too many input arguments.
+564 [2022.01.11 16:16:50.846678] [err] [worker:1] 
+567 [2022.01.11 16:17:48.183188] [err] [worker:1] Error using webread (line 116)
+568 [2022.01.11 16:17:48.183188] [err] [worker:1] Expected URL to be one of these types:
+569 [2022.01.11 16:17:48.183188] [err] [worker:1] 
+570 [2022.01.11 16:17:48.183188] [err] [worker:1] char
+571 [2022.01.11 16:17:48.183188] [err] [worker:1] 
+572 [2022.01.11 16:17:48.183188] [err] [worker:1] Instead its type was uint8.
+573 [2022.01.11 16:17:48.183188] [err] [worker:1] 
+574 [2022.01.11 16:17:48.183188] [err] [worker:1] Error in Gray (line 2)
+575 [2022.01.11 16:17:48.183188] [err] [worker:1] 
+576 [2022.01.11 16:17:48.183188] [err] [worker:1] 
+577 [2022.01.11 16:17:48.183188] [err] [worker:1] Error in Ideal_LPF (line 8)
+578 [2022.01.11 16:17:48.183188] [err] [worker:1] 
+579 [2022.01.11 16:17:48.183188] [err] [worker:1] 
+582 [2022.01.11 16:17:59.825635] [err] [worker:1] Error using webread (line 116)
+583 [2022.01.11 16:17:59.825635] [err] [worker:1] Expected URL to be one of these types:
+584 [2022.01.11 16:17:59.825635] [err] [worker:1] 
+585 [2022.01.11 16:17:59.825635] [err] [worker:1] char
+586 [2022.01.11 16:17:59.825635] [err] [worker:1] 
+587 [2022.01.11 16:17:59.825635] [err] [worker:1] Instead its type was uint8.
+588 [2022.01.11 16:17:59.825635] [err] [worker:1] 
+589 [2022.01.11 16:17:59.825635] [err] [worker:1] Error in Gray (line 2)
+590 [2022.01.11 16:17:59.825635] [err] [worker:1] 
+591 [2022.01.11 16:17:59.825635] [err] [worker:1] 
+592 [2022.01.11 16:17:59.825635] [err] [worker:1] Error in Ideal_HPF (line 7)
+593 [2022.01.11 16:17:59.825635] [err] [worker:1] 
+594 [2022.01.11 16:17:59.825635] [err] [worker:1] 
+597 [2022.01.11 16:18:05.855360] [err] [worker:1] Error using webread (line 116)
+598 [2022.01.11 16:18:05.855360] [err] [worker:1] Expected URL to be one of these types:
+599 [2022.01.11 16:18:05.855360] [err] [worker:1] 
+600 [2022.01.11 16:18:05.855360] [err] [worker:1] char
+601 [2022.01.11 16:18:05.855360] [err] [worker:1] 
+602 [2022.01.11 16:18:05.855360] [err] [worker:1] Instead its type was uint8.
+603 [2022.01.11 16:18:05.855360] [err] [worker:1] 
+604 [2022.01.11 16:18:05.855360] [err] [worker:1] Error in Gray (line 2)
+605 [2022.01.11 16:18:05.855360] [err] [worker:1] 
+606 [2022.01.11 16:18:05.855360] [err] [worker:1] 
+607 [2022.01.11 16:18:05.855360] [err] [worker:1] Error in Ideal_HPF (line 7)
+608 [2022.01.11 16:18:05.855360] [err] [worker:1] 
+609 [2022.01.11 16:18:05.855360] [err] [worker:1] 
+612 [2022.01.11 16:18:50.481539] [err] [worker:1] Undefined function or variable 'graay'.
+613 [2022.01.11 16:18:50.481539] [err] [worker:1] 
+614 [2022.01.11 16:18:50.481539] [err] [worker:1] Error in Negative (line 3)
+615 [2022.01.11 16:18:50.481539] [err] [worker:1] 
+616 [2022.01.11 16:18:50.481539] [err] [worker:1] 
+619 [2022.01.11 16:19:06.350450] [err] [worker:1] Undefined function or variable 'graay'.
+620 [2022.01.11 16:19:06.350450] [err] [worker:1] 
+621 [2022.01.11 16:19:06.350450] [err] [worker:1] Error in Negative (line 3)
+622 [2022.01.11 16:19:06.350450] [err] [worker:1] 
+623 [2022.01.11 16:19:06.350450] [err] [worker:1] 
+626 [2022.01.11 16:19:56.668291] [err] [worker:1] Error using imread
+627 [2022.01.11 16:19:56.668291] [err] [worker:1] The file name or URL argument must be a string.
+628 [2022.01.11 16:19:56.668291] [err] [worker:1] 
+629 [2022.01.11 16:19:56.668291] [err] [worker:1] Error in imread
+630 [2022.01.11 16:19:56.668291] [err] [worker:1] 
+631 [2022.01.11 16:19:56.668291] [err] [worker:1] 
+632 [2022.01.11 16:19:56.668291] [err] [worker:1] Error in edge_detection (line 5)
+633 [2022.01.11 16:19:56.668291] [err] [worker:1] 
+634 [2022.01.11 16:19:56.668291] [err] [worker:1] 
+640 [2022.01.11 16:23:25.842489] [err] [worker:1] Undefined function or variable 'input_image'.
+641 [2022.01.11 16:23:25.842489] [err] [worker:1] 
+642 [2022.01.11 16:23:25.842489] [err] [worker:1] Error in Butterworth_HPF (line 6)
+643 [2022.01.11 16:23:25.842489] [err] [worker:1] 
+644 [2022.01.11 16:23:25.842489] [err] [worker:1] 
+647 [2022.01.11 16:26:40.166700] [err] [worker:1] Undefined function or variable 'input_image'.
+648 [2022.01.11 16:26:40.166700] [err] [worker:1] 
+649 [2022.01.11 16:26:40.166700] [err] [worker:1] Error in Butterworth_HPF (line 6)
+650 [2022.01.11 16:26:40.166700] [err] [worker:1] 
+651 [2022.01.11 16:26:40.166700] [err] [worker:1] 
+654 [2022.01.11 16:28:53.163902] [err] [worker:1] Error using webread (line 116)
+655 [2022.01.11 16:28:53.163902] [err] [worker:1] Expected URL to be one of these types:
+656 [2022.01.11 16:28:53.163902] [err] [worker:1] 
+657 [2022.01.11 16:28:53.163902] [err] [worker:1] char
+658 [2022.01.11 16:28:53.163902] [err] [worker:1] 
+659 [2022.01.11 16:28:53.163902] [err] [worker:1] Instead its type was uint8.
+660 [2022.01.11 16:28:53.163902] [err] [worker:1] 
+661 [2022.01.11 16:28:53.163902] [err] [worker:1] Error in Gray (line 2)
+662 [2022.01.11 16:28:53.163902] [err] [worker:1] 
+663 [2022.01.11 16:28:53.163902] [err] [worker:1] 
+664 [2022.01.11 16:28:53.163902] [err] [worker:1] Error in Contrast (line 3)
+665 [2022.01.11 16:28:53.163902] [err] [worker:1] 
+666 [2022.01.11 16:28:53.163902] [err] [worker:1] 
+674 [2022.01.11 16:32:39.953146] [err] [worker:1] Error using edge_detection
+675 [2022.01.11 16:32:39.953146] [err] [worker:1] Too many input arguments.
+676 [2022.01.11 16:32:39.953146] [err] [worker:1] 
+679 [2022.01.11 16:32:43.371806] [err] [worker:1] Error using imread
+680 [2022.01.11 16:32:43.372760] [err] [worker:1] The file name or URL argument must be a string.
+681 [2022.01.11 16:32:43.372760] [err] [worker:1] 
+682 [2022.01.11 16:32:43.372760] [err] [worker:1] Error in imread
+683 [2022.01.11 16:32:43.372760] [err] [worker:1] 
+684 [2022.01.11 16:32:43.372760] [err] [worker:1] 
+685 [2022.01.11 16:32:43.372760] [err] [worker:1] Error in edge_detection (line 5)
+686 [2022.01.11 16:32:43.372760] [err] [worker:1] 
+687 [2022.01.11 16:32:43.372760] [err] [worker:1] 
+690 [2022.01.11 16:33:38.120955] [err] [worker:1] Error using webread (line 116)
+691 [2022.01.11 16:33:38.121914] [err] [worker:1] Expected URL to be one of these types:
+692 [2022.01.11 16:33:38.121914] [err] [worker:1] 
+693 [2022.01.11 16:33:38.121914] [err] [worker:1] char
+694 [2022.01.11 16:33:38.121914] [err] [worker:1] 
+695 [2022.01.11 16:33:38.121914] [err] [worker:1] Instead its type was uint8.
+696 [2022.01.11 16:33:38.121914] [err] [worker:1] 
+697 [2022.01.11 16:33:38.121914] [err] [worker:1] Error in Gray (line 2)
+698 [2022.01.11 16:33:38.121914] [err] [worker:1] 
+699 [2022.01.11 16:33:38.121914] [err] [worker:1] 
+700 [2022.01.11 16:33:38.121914] [err] [worker:1] Error in Gamma (line 3)
+701 [2022.01.11 16:33:38.121914] [err] [worker:1] 
+702 [2022.01.11 16:33:38.121914] [err] [worker:1] 
+705 [2022.01.11 16:34:30.402732] [err] [worker:1] Error using webread (line 116)
+706 [2022.01.11 16:34:30.402732] [err] [worker:1] Expected URL to be one of these types:
+707 [2022.01.11 16:34:30.402732] [err] [worker:1] 
+708 [2022.01.11 16:34:30.402732] [err] [worker:1] char
+709 [2022.01.11 16:34:30.402732] [err] [worker:1] 
+710 [2022.01.11 16:34:30.402732] [err] [worker:1] Instead its type was uint8.
+711 [2022.01.11 16:34:30.402732] [err] [worker:1] 
+712 [2022.01.11 16:34:30.402732] [err] [worker:1] Error in Gray (line 2)
+713 [2022.01.11 16:34:30.402732] [err] [worker:1] 
+714 [2022.01.11 16:34:30.402732] [err] [worker:1] 
+715 [2022.01.11 16:34:30.402732] [err] [worker:1] Error in Gaussian_HPF (line 7)
+716 [2022.01.11 16:34:30.402732] [err] [worker:1] 
+717 [2022.01.11 16:34:30.402732] [err] [worker:1] 
+720 [2022.01.11 16:34:51.578627] [err] [worker:1] Error using webread (line 116)
+721 [2022.01.11 16:34:51.578627] [err] [worker:1] Expected URL to be one of these types:
+722 [2022.01.11 16:34:51.578627] [err] [worker:1] 
+723 [2022.01.11 16:34:51.578627] [err] [worker:1] char
+724 [2022.01.11 16:34:51.578627] [err] [worker:1] 
+725 [2022.01.11 16:34:51.578627] [err] [worker:1] Instead its type was uint8.
+726 [2022.01.11 16:34:51.578627] [err] [worker:1] 
+727 [2022.01.11 16:34:51.578627] [err] [worker:1] Error in Gray (line 2)
+728 [2022.01.11 16:34:51.578627] [err] [worker:1] 
+729 [2022.01.11 16:34:51.578627] [err] [worker:1] 
+730 [2022.01.11 16:34:51.578627] [err] [worker:1] Error in Gaussian_HPF (line 7)
+731 [2022.01.11 16:34:51.578627] [err] [worker:1] 
+732 [2022.01.11 16:34:51.578627] [err] [worker:1] 
+740 [2022.01.11 16:42:31.000321] [err] [worker:1] Error using webread (line 119)
+741 [2022.01.11 16:42:31.000321] [err] [worker:1] The server returned the message: "Connection refused" for URL, 'http://127.0.0.1:8000/media/5.jpg' (with HTTP response code 400).
+742 [2022.01.11 16:42:31.000321] [err] [worker:1] 
+743 [2022.01.11 16:42:31.000321] [err] [worker:1] Error in Dir_Ord_Resize (line 4)
+744 [2022.01.11 16:42:31.000321] [err] [worker:1] 
+745 [2022.01.11 16:42:31.000321] [err] [worker:1] 
+753 [2022.01.11 16:55:06.190064] [information] [SERVICE:auto-deploy] Added 'Dir_Ord_Resize' ('G:\Programming Live\Achievements\Projects\Big Projects\Image Process\GUI\prod_server_1\auto_deploy\Dir_Ord_Resize.ctf' -> 'G:\Programming Live\Achievements\Projects\Big Projects\Image Process\GUI\prod_server_1\.mps_deployed\Dir_Ord_Resize_3')
+758 [2022.01.11 16:58:47.100931] [information] [SERVICE:auto-deploy] Added 'Reverse' ('G:\Programming Live\Achievements\Projects\Big Projects\Image Process\GUI\prod_server_1\auto_deploy\Reverse.ctf' -> 'G:\Programming Live\Achievements\Projects\Big Projects\Image Process\GUI\prod_server_1\.mps_deployed\Reverse_4')
+822 [2022.01.11 20:09:10.978931] [information] [SERVICE:auto-deploy] Removed 'Functions'
+823 [2022.01.11 20:09:15.982406] [information] [SERVICE:auto-deploy] Removed 'Dir_Ord_Resize'
+824 [2022.01.11 20:09:15.982406] [information] [SERVICE:auto-deploy] Removed 'Reverse'
+825 [2022.01.11 20:10:02.058787] [information] [SERVICE:auto-deploy] Added 'Functions' ('G:\Programming Live\Achievements\Projects\Big Projects\Image Process\GUI\prod_server_1\auto_deploy\Functions.ctf' -> 'G:\Programming Live\Achievements\Projects\Big Projects\Image Process\GUI\prod_server_1\.mps_deployed\Functions_5')
+830 [2022.01.11 20:10:19.029146] [information] Request (from [::1]:56262) for non-deployed component
+832 [2022.01.11 20:10:19.039035] [error] [connection_id:108] [service:http-connection] do not continue
+856 [2022.01.11 20:16:24.721642] [err] [worker:1] Not enough input arguments.
+857 [2022.01.11 20:16:24.721642] [err] [worker:1] 
+858 [2022.01.11 20:16:24.721642] [err] [worker:1] Error in Butterworth_HPF (line 39)
+859 [2022.01.11 20:16:24.721642] [err] [worker:1] 
+860 [2022.01.11 20:16:24.721642] [err] [worker:1] 
+863 [2022.01.11 20:17:03.988235] [err] [worker:1] Not enough input arguments.
+864 [2022.01.11 20:17:03.988235] [err] [worker:1] 
+865 [2022.01.11 20:17:03.988235] [err] [worker:1] Error in Butterworth_HPF (line 39)
+866 [2022.01.11 20:17:03.988235] [err] [worker:1] 
+867 [2022.01.11 20:17:03.988235] [err] [worker:1] 
+870 [2022.01.11 20:17:13.859096] [err] [worker:1] Not enough input arguments.
+871 [2022.01.11 20:17:13.859096] [err] [worker:1] 
+872 [2022.01.11 20:17:13.859096] [err] [worker:1] Error in Butterworth_HPF (line 39)
+873 [2022.01.11 20:17:13.859096] [err] [worker:1] 
+874 [2022.01.11 20:17:13.859096] [err] [worker:1] 
+881 [2022.01.11 20:18:46.518442] [err] [worker:1] Not enough input arguments.
+882 [2022.01.11 20:18:46.518442] [err] [worker:1] 
+883 [2022.01.11 20:18:46.518442] [err] [worker:1] Error in Brightness (line 10)
+884 [2022.01.11 20:18:46.518442] [err] [worker:1] 
+885 [2022.01.11 20:18:46.518442] [err] [worker:1] 
+890 [2022.01.11 20:19:55.554081] [err] [worker:1] Not enough input arguments.
+891 [2022.01.11 20:19:55.554081] [err] [worker:1] 
+892 [2022.01.11 20:19:55.554081] [err] [worker:1] Error in Ideal_HPF (line 36)
+893 [2022.01.11 20:19:55.554081] [err] [worker:1] 
+894 [2022.01.11 20:19:55.554081] [err] [worker:1] 
+901 [2022.01.11 20:21:27.877108] [err] [worker:1] Index exceeds matrix dimensions.
+902 [2022.01.11 20:21:27.877108] [err] [worker:1] 
+903 [2022.01.11 20:21:27.877108] [err] [worker:1] Error in Brightness (line 10)
+904 [2022.01.11 20:21:27.877108] [err] [worker:1] 
+905 [2022.01.11 20:21:27.877108] [err] [worker:1] 
+917 [2022.01.11 20:24:02.290309] [err] [worker:1] Not enough input arguments.
+918 [2022.01.11 20:24:02.290309] [err] [worker:1] 
+919 [2022.01.11 20:24:02.290309] [err] [worker:1] Error in Butterworth_HPF (line 39)
+920 [2022.01.11 20:24:02.290309] [err] [worker:1] 
+921 [2022.01.11 20:24:02.290309] [err] [worker:1] 
+924 [2022.01.11 20:24:05.430867] [err] [worker:1] Not enough input arguments.
+925 [2022.01.11 20:24:05.430867] [err] [worker:1] 
+926 [2022.01.11 20:24:05.430867] [err] [worker:1] Error in Butterworth_LPF (line 38)
+927 [2022.01.11 20:24:05.430867] [err] [worker:1] 
+928 [2022.01.11 20:24:05.430867] [err] [worker:1] 
+939 [2022.01.11 20:27:32.964529] [err] [worker:1] Undefined function or variable 'output'.
+940 [2022.01.11 20:27:32.964529] [err] [worker:1] 
+941 [2022.01.11 20:27:32.964529] [err] [worker:1] Error in GaussianFilter (line 33)
+942 [2022.01.11 20:27:32.964529] [err] [worker:1] 
+943 [2022.01.11 20:27:32.964529] [err] [worker:1] 
+946 [2022.01.11 20:27:37.181371] [err] [worker:1] Not enough input arguments.
+947 [2022.01.11 20:27:37.181371] [err] [worker:1] 
+948 [2022.01.11 20:27:37.181371] [err] [worker:1] Error in Gaussian_HPF (line 39)
+949 [2022.01.11 20:27:37.181371] [err] [worker:1] 
+950 [2022.01.11 20:27:37.181371] [err] [worker:1] 
+953 [2022.01.11 20:27:41.009766] [err] [worker:1] Not enough input arguments.
+954 [2022.01.11 20:27:41.009766] [err] [worker:1] 
+955 [2022.01.11 20:27:41.009766] [err] [worker:1] Error in Butterworth_LPF (line 38)
+956 [2022.01.11 20:27:41.009766] [err] [worker:1] 
+957 [2022.01.11 20:27:41.009766] [err] [worker:1] 
+973 [2022.01.11 20:33:18.685690] [err] [worker:1] Not enough input arguments.
+974 [2022.01.11 20:33:18.685690] [err] [worker:1] 
+975 [2022.01.11 20:33:18.685690] [err] [worker:1] Error in Butterworth_HPF (line 39)
+976 [2022.01.11 20:33:18.685690] [err] [worker:1] 
+977 [2022.01.11 20:33:18.685690] [err] [worker:1] 
+990 [2022.01.11 20:37:25.203081] [err] [worker:1] Error using rgb2gray>parse_inputs (line 77)
+991 [2022.01.11 20:37:25.203081] [err] [worker:1] MAP must be a m x 3 array.
+992 [2022.01.11 20:37:25.203081] [err] [worker:1] 
+993 [2022.01.11 20:37:25.203081] [err] [worker:1] Error in rgb2gray (line 52)
+994 [2022.01.11 20:37:25.203081] [err] [worker:1] 
+995 [2022.01.11 20:37:25.203081] [err] [worker:1] 
+996 [2022.01.11 20:37:25.203081] [err] [worker:1] Error in Contrast (line 3)
+997 [2022.01.11 20:37:25.203081] [err] [worker:1] 
+998 [2022.01.11 20:37:25.203081] [err] [worker:1] 
+1001 [2022.01.11 20:38:02.157022] [err] [worker:1] Error using GaussianFilter
+1002 [2022.01.11 20:38:02.157022] [err] [worker:1] Too many input arguments.
+1003 [2022.01.11 20:38:02.157022] [err] [worker:1] 
+1006 [2022.01.11 20:39:08.377729] [err] [worker:1] Error using GaussianFilter
+1007 [2022.01.11 20:39:08.377729] [err] [worker:1] Too many input arguments.
+1008 [2022.01.11 20:39:08.377729] [err] [worker:1] 
+1028 [2022.01.11 20:49:26.216019] [err] [worker:1] Error using GaussianFilter
+1029 [2022.01.11 20:49:26.216019] [err] [worker:1] Too many input arguments.
+1030 [2022.01.11 20:49:26.216019] [err] [worker:1] 
+1037 [2022.01.11 20:50:52.301268] [err] [worker:1] Error using Contrast
+1038 [2022.01.11 20:50:52.301268] [err] [worker:1] Too many input arguments.
+1039 [2022.01.11 20:50:52.301268] [err] [worker:1] 
+1048 [2022.01.11 20:51:33.032597] [err] [worker:1] Error using MeanFilter
+1049 [2022.01.11 20:51:33.032597] [err] [worker:1] Too many input arguments.
+1050 [2022.01.11 20:51:33.032597] [err] [worker:1] 
+1068 [2022.01.11 20:54:29.282619] [err] [worker:1] Not enough input arguments.
+1069 [2022.01.11 20:54:29.282619] [err] [worker:1] 
+1070 [2022.01.11 20:54:29.282619] [err] [worker:1] Error in Ideal_HPF (line 36)
+1071 [2022.01.11 20:54:29.282619] [err] [worker:1] 
+1072 [2022.01.11 20:54:29.282619] [err] [worker:1] 
+1104 [2022.01.11 21:30:48.832063] [err] [worker:1] Error using Histogram
+1105 [2022.01.11 21:30:48.833060] [err] [worker:1] Too many output arguments.
+1106 [2022.01.11 21:30:48.833060] [err] [worker:1] 
+1109 [2022.01.11 21:31:55.629867] [err] [worker:1] Error using Histogram
+1110 [2022.01.11 21:31:55.629867] [err] [worker:1] Too many output arguments.
+1111 [2022.01.11 21:31:55.629867] [err] [worker:1] 
+1117 [2022.01.11 21:34:51.180002] [err] [worker:1] Error using Histogram
+1118 [2022.01.11 21:34:51.180002] [err] [worker:1] Too many output arguments.
+1119 [2022.01.11 21:34:51.180002] [err] [worker:1] 
+1122 [2022.01.11 21:35:00.697466] [err] [worker:1] Error using Histogram
+1123 [2022.01.11 21:35:00.697466] [err] [worker:1] Too many output arguments.
+1124 [2022.01.11 21:35:00.697466] [err] [worker:1] 
+1127 [2022.01.11 21:38:17.266896] [err] [worker:1] Error using Histogram
+1128 [2022.01.11 21:38:17.266896] [err] [worker:1] Too many output arguments.
+1129 [2022.01.11 21:38:17.266896] [err] [worker:1] 
+1130 [2022.01.11 21:40:16.595389] [information] [SERVICE:auto-deploy] Updated 'Functions' ('G:\Programming Live\Achievements\Projects\Big Projects\Image Process\GUI\prod_server_1\auto_deploy\Functions.ctf' -> 'G:\Programming Live\Achievements\Projects\Big Projects\Image Process\GUI\prod_server_1\.mps_deployed\Functions_6')
+1135 [2022.01.11 21:40:25.960160] [err] [worker:1] Error using Histogram
+1136 [2022.01.11 21:40:25.960160] [err] [worker:1] Too many output arguments.
+1137 [2022.01.11 21:40:25.960160] [err] [worker:1] 
+1140 [2022.01.11 21:40:49.724473] [err] [worker:1] Error using Histogram
+1141 [2022.01.11 21:40:49.724473] [err] [worker:1] Too many output arguments.
+1142 [2022.01.11 21:40:49.724473] [err] [worker:1] 
+1187 [2022.01.11 21:53:29.384418] [information] [SERVICE:worker] Waiting for worker 1 to finish pending activity
+1188 [2022.01.11 21:53:29.384418] [information] [SERVICE:worker] Starting graceful shutdown of worker 1
+1189 [2022.01.11 21:53:29.384418] [information] [SERVICE:worker] Shutdown request was successfully sent to worker 1; waiting for process to exit...
+1193 [2022.01.11 21:53:31.059033] [information] [SERVICE:worker] Worker 1 exited with code 0
+1195 [2022.01.11 21:53:31.059033] [information] [SERVICE:worker] Worker 1 successfully stopped.
+1205 [2022.01.11 21:53:31.059033] [information] [SERVICE:FLEXlm Client] customer shutdown
+1209 [2022.01.11 21:53:31.059033] [information] [SERVICE:FLEXlm Client] license unavailable
+1210 [2022.01.11 21:53:31.059033] [information] [SERVICE:FLEXlm Client] temporarily disabling request processing
+1211 [2022.01.11 21:53:31.059033] [information] [SERVICE:FLEXlm Client] reset current license type to be invalid
+1221 [2022.01.11 21:53:31.071885] [information] [SERVICE:FLEXlm Client] licensing shutdown successfully
+1224 [2022.01.11 21:53:31.071885] [error] [SERVICE:FLEXlm Client] Stop License Manager
+1227 [2022.01.11 21:53:31.071885] [information] Master stopped
