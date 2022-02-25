@@ -1,4 +1,4 @@
-<h1 align="center"><img height='25' alt='icon' src='./readme_images/editor.svg'/>Editor</h1><p align="center">It's an Image Proccessing Website <b>Developed using Matlab</b> <br></p>
+<h1 align="center"><img height='30' alt='icon' src='./readme_images/editor.svg'/> Editor</h1><p align="center">It's an Image Proccessing Website <b>Developed using Matlab</b> <br></p>
 
 [![GitHub forks](https://img.shields.io/github/forks/Ahmed-nd/Editor?style=social)](https://github.com/Ahmed-nd/Editor/fork)
 
